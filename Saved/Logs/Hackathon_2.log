@@ -1,0 +1,1054 @@
+﻿[2015.11.08-07.03.24:235][  0]Log file open, 11/08/15 09:03:24
+[2015.11.08-07.03.24:235][  0]LogInit:Display: Running engine for game: Hackathon
+[2015.11.08-07.03.24:235][  0]LogInit:Display: RandInit(1522934461) SRandInit(1522934462).
+[2015.11.08-07.03.24:235][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.08-07.03.24:235][  0]LogStats: Stats thread started at 0.153930
+[2015.11.08-07.03.24:235][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.08-07.03.24:235][  0]LogInit: API Version: 2672455
+[2015.11.08-07.03.24:235][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.08-07.03.24:235][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.08-07.03.24:235][  0]LogInit: Build Configuration: Development
+[2015.11.08-07.03.24:235][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.08-07.03.24:235][  0]LogInit: Command line:  
+[2015.11.08-07.03.24:235][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.08-07.03.24:235][  0]LogInit: Rocket: 1
+[2015.11.08-07.03.24:262][  0]LogInit: Using libcurl 7.41.0
+[2015.11.08-07.03.24:262][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.08-07.03.24:262][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.08-07.03.24:262][  0]LogInit:  - other features:
+[2015.11.08-07.03.24:262][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.08-07.03.24:262][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.08-07.03.24:262][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.08-07.03.24:262][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.08-07.03.24:262][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.08-07.03.24:263][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.08-07.03.24:263][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.08-07.03.24:263][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.08-07.03.24:263][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.08-07.03.24:263][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.08-07.03.24:288][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.08-07.03.24:310][  0]LogInit: Object subsystem initialized
+[2015.11.08-07.03.24:314][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.08-07.03.24:314][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.08-07.03.24:349][  0]LogInit: Computer: KARASUTENGU
+[2015.11.08-07.03.24:349][  0]LogInit: User: JustAddX
+[2015.11.08-07.03.24:349][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.08-07.03.24:349][  0]LogInit: High frequency timer resolution =2.338441 MHz
+[2015.11.08-07.03.24:349][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.11.08-07.03.24:349][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.08-07.03.24:349][  0]LogMemory: Process Physical Memory: 58.86 MB used, 58.86 MB peak
+[2015.11.08-07.03.24:349][  0]LogMemory: Process Virtual Memory: 61.27 MB used, 61.27 MB peak
+[2015.11.08-07.03.24:349][  0]LogMemory: Physical Memory: 4824.25 MB used, 16335.20 MB total
+[2015.11.08-07.03.24:349][  0]LogMemory: Virtual Memory: 377.10 MB used, 134217728.00 MB total
+[2015.11.08-07.03.24:483][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.08-07.03.26:565][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 670MX (Feature Level 11_0)
+[2015.11.08-07.03.26:565][  0]LogD3D11RHI: Adapter has 3008MB of dedicated video memory, 0MB of dedicated system memory, and 8167MB of shared system memory, 1 output[s]
+[2015.11.08-07.03.26:571][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.08-07.03.26:571][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8167MB of shared system memory, 0 output[s]
+[2015.11.08-07.03.26:572][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.08-07.03.26:581][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.08-07.03.26:581][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.08-07.03.26:619][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.08-07.03.26:646][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/Unreal/HackTMWS/Hackathon/Intermediate/Shaders/WorkingDirectory/8524/).
+[2015.11.08-07.03.26:646][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'E:/Unreal/HackTMWS/Hackathon/Intermediate/Shaders/tmp/526B475A4BC46FC70A7FE589FB935081/'.
+[2015.11.08-07.03.26:646][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.08-07.03.30:113][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.08-07.03.30:130][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.08-07.03.30:146][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.08-07.03.30:162][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.08-07.03.30:178][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.08-07.03.30:189][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.08-07.03.30:199][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.08-07.03.30:209][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.08-07.03.30:219][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.08-07.03.30:229][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.08-07.03.30:240][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.08-07.03.30:250][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.08-07.03.30:252][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.08-07.03.30:283][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.08-07.03.30:293][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.08-07.03.30:303][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.08-07.03.30:313][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.08-07.03.30:313][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.08-07.03.30:613][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.08-07.03.30:720][  0]LogDerivedDataCache: Loaded boot cache 0.11s 41MB C:/Users/JustAddX/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.08-07.03.30:720][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/JustAddX/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.08-07.03.30:720][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal/HackTMWS/Hackathon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.08-07.03.30:720][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.08-07.03.30:720][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal/HackTMWS/Hackathon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.08-07.03.30:720][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.08-07.03.31:107][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.08-07.03.31:121][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JustAddX/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.08-07.03.31:747][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.08-07.03.31:756][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.08-07.03.32:088][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.08-07.03.32:088][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.08-07.03.32:739][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.08-07.03.35:587][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.08-07.03.35:777][  0]LogAssetRegistry: FAssetRegistry took 0.0120 seconds to start up
+[2015.11.08-07.03.36:317][  0]SourceControl: Info Source control is disabled
+[2015.11.08-07.03.36:398][  0]SourceControl: Info Source control is disabled
+[2015.11.08-07.03.37:044][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-07.03.37:328][  0]LogObj: 28380 objects as part of root set at end of initial load.
+[2015.11.08-07.03.37:329][  0]LogUObjectAllocator: 6044384 out of 0 bytes used by permanent object pool.
+[2015.11.08-07.03.37:474][  0]LogEngine: Initializing Engine...
+[2015.11.08-07.03.37:483][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.08-07.03.37:485][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.08-07.03.37:842][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.08-07.03.37:869][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.08-07.03.38:010][  0]LogInit: FAudioDevice initialized.
+[2015.11.08-07.03.38:053][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/JustAddX/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.08-07.03.38:061][  0]LogInit: Texture streaming: Enabled
+[2015.11.08-07.03.38:079][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.08-07.03.38:079][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.08-07.03.38:079][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 01ed42054ad48911ac0b5db6b1f56165|c36cad87b28148aa86f654aee36423e2|4a0c5acb-cfe5-437e-b84d-3e3da8845d86
+[2015.11.08-07.03.38:079][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.08-07.03.38:201][  0]LogInit: Transaction tracking system initialized
+[2015.11.08-07.03.38:304][  0]BlueprintLog: New page: Editor Load
+[2015.11.08-07.03.38:583][  0]LocalizationService: Info Localization service is disabled
+[2015.11.08-07.03.38:849][  0]LogConsoleResponse:Display: 
+[2015.11.08-07.03.39:182][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.08-07.03.40:236][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal/HackTMWS/Hackathon/Content/' took 0.02s
+[2015.11.08-07.03.40:237][  0]Cmd: MAP LOAD FILE="E:/Unreal/HackTMWS/Hackathon/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.08-07.03.40:239][  0]LightingResults: New page: Lighting Build
+[2015.11.08-07.03.40:248][  0]MapCheck: New page: Map Check
+[2015.11.08-07.03.40:248][  0]LightingResults: New page: Lighting Build
+[2015.11.08-07.03.40:280][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000086385FEAC0
+[2015.11.08-07.03.40:297][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-07.03.40:301][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-07.03.40:306][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-07.03.40:311][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-07.03.40:315][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-07.03.40:316][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-07.03.40:320][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-07.03.40:324][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-07.03.40:766][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-07.03.43:166][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Roby/FlamableToilet.FlamableToilet_C:UserConstructionScript; removing parent information, but keeping function
+[2015.11.08-07.03.44:594][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.11.08-07.03.44:605][  0]LogMaterial:Warning: Material /Game/Geometry/Meshes/Textures/MAT_master.MAT_master needed to have new flag set bUsedWithStaticLighting !
+[2015.11.08-07.03.44:616][  0]LogMaterial: Missing cached shader map for material MAT_master, compiling. 
+[2015.11.08-07.03.44:772][  0]MapCheck:Warning: Warning MAT_master Material /Game/Geometry/Meshes/Textures/MAT_master.MAT_master was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2015.11.08-07.03.44:773][  0]LogMaterial: 0.000364 seconds spent updating 1 materials, 1 interfaces, 4 instances, 0 with static permutations.
+[2015.11.08-07.03.44:852][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.08-07.03.44:854][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.08-07.03.45:095][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 240.668ms to complete.
+[2015.11.08-07.03.45:112][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.875
+[2015.11.08-07.03.45:342][  0]LogCollectionManager: Loaded 0 collections in 0.007628 seconds
+[2015.11.08-07.03.45:406][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal/HackTMWS/Hackathon/Saved/Collections/' took 0.01s
+[2015.11.08-07.03.45:406][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal/HackTMWS/Hackathon/Content/Developers/JustAddX/Collections/' took 0.01s
+[2015.11.08-07.03.45:406][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal/HackTMWS/Hackathon/Content/Collections/' took 0.01s
+[2015.11.08-07.03.45:406][  0]LogContentBrowser: Native class hierarchy populated in 0.0268 seconds. Added 1874 classes and 335 folders.
+[2015.11.08-07.03.45:420][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2015.11.08-07.03.45:442][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2015.11.08-07.03.45:608][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2015.11.08-07.03.45:638][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2015.11.08-07.03.45:835][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.08-07.03.45:845][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.08-07.03.45:868][  0]LogLoad: Full Startup: 23.22 seconds (BP compile: 1.15 seconds)
+[2015.11.08-07.03.45:889][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Failed import for SceneComponent /Game/Roby/DestructableWallBP.DestructableWallBP_C:DefaultSceneRoot_GEN_VARIABLE
+[2015.11.08-07.03.45:987][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.08-07.03.46:289][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.11.08-07.03.46:328][  0]LogSourceControl: Attempting 'p4 client -o HackTM'
+[2015.11.08-07.03.47:027][  7]SourceControl: Info Client HackTM
+[2015.11.08-07.03.47:028][  7]SourceControl: Info Update 2015/11/07 07:33:37
+[2015.11.08-07.03.47:028][  7]SourceControl: Info Access 2015/11/08 02:03:24
+[2015.11.08-07.03.47:028][  7]SourceControl: Info Owner KrunkFu
+[2015.11.08-07.03.47:028][  7]SourceControl: Info Host KarasuTengu
+[2015.11.08-07.03.47:028][  7]SourceControl: Info Description Created by KrunkFu.
+
+[2015.11.08-07.03.47:028][  7]SourceControl: Info Root E:\Unreal\HackTMWS
+[2015.11.08-07.03.47:028][  7]SourceControl: Info Options noallwrite noclobber nocompress unlocked nomodtime normdir
+[2015.11.08-07.03.47:028][  7]SourceControl: Info SubmitOptions submitunchanged
+[2015.11.08-07.03.47:028][  7]SourceControl: Info LineEnd local
+[2015.11.08-07.03.47:028][  7]SourceControl: Info View0 //depot/... //HackTM/...
+[2015.11.08-07.03.47:028][  7]SourceControl: Info specFormatted 
+[2015.11.08-07.03.47:028][  7]SourceControl: Info func client-FstatInfo
+[2015.11.08-07.03.47:366][ 13]LogAssetRegistry: Asset discovery search completed in 11.6011 seconds
+[2015.11.08-07.03.47:366][ 13]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.08-07.03.47:366][ 13]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
+[2015.11.08-07.03.47:967][ 46]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/DoorWallBP.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/FireFighterController_BP.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/FireFighterWidget.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/FireFIghtingGameMode.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/Flamable_Master_BP.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableToilet.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/Projectile_Master_BP.uasset'
+[2015.11.08-07.03.52:063][249]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.08-07.03.52:063][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.08-07.03.52:064][249]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 8, 2015, 11:03:52 AM)
+[2015.11.08-07.03.52:064][249]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.11.08-07.03.52:135][249]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableBed.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableCouch.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableDesk.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableSink.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlameEnemy.uasset'
+[2015.11.08-07.03.52:140][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076022s)
+[2015.11.08-07.03.52:141][249]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.11.08-07.03.52:142][249]LogPlayLevel: PIE: World Init took: (0.002158s)
+[2015.11.08-07.03.52:142][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.078930s)
+[2015.11.08-07.03.52:143][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.08-07.03.52:143][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.03.52:272][249]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.08-07.03.52:376][249]LogInit: FAudioDevice initialized.
+[2015.11.08-07.03.52:452][249]LogWorld: Game class is 'FireFIghtingGameMode_C'
+[2015.11.08-07.03.52:493][249]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.08-07.03.52:493][249]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.11.08-09.03.52
+[2015.11.08-07.03.52:494][249]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-07.03.52:494][249]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-07.03.52:499][249]LogWorld: Bringing up level for play took: 0.041500
+[2015.11.08-07.03.52:505][249]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.487
+[2015.11.08-07.03.52:506][249]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.08-07.03.54:932][373]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.08-07.03.54:980][373]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.08-07.03.55:017][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000863FD4DC60
+[2015.11.08-07.03.58:854][549]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Roby/FlamableBed.FlamableBed_C:UserConstructionScript; removing parent information, but keeping function
+[2015.11.08-07.03.58:887][549]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Roby/FlamableCouch.FlamableCouch_C:UserConstructionScript; removing parent information, but keeping function
+[2015.11.08-07.03.58:921][549]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Roby/FlamableDesk.FlamableDesk_C:UserConstructionScript; removing parent information, but keeping function
+[2015.11.08-07.03.58:955][549]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Roby/FlamableSink.FlamableSink_C:UserConstructionScript; removing parent information, but keeping function
+[2015.11.08-07.03.59:261][549]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Maps/EndLevel.umap E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap E:/Unreal/HackTMWS/Hackathon/Content/Maps/MainMenu.umap'
+[2015.11.08-07.03.59:281][549]LogAIModule: Creating AISystem for world Level01
+[2015.11.08-07.03.59:433][549]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.08-07.03.59:475][549]Cmd: MAP LOAD FILE="E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.08-07.03.59:475][549]LightingResults: New page: Lighting Build
+[2015.11.08-07.03.59:536][549]LoadErrors: New page: Loading map: Level01.umap
+[2015.11.08-07.03.59:541][549]MapCheck: New page: Map Check
+[2015.11.08-07.03.59:541][549]LightingResults: New page: Lighting Build
+[2015.11.08-07.03.59:572][549]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000863FD87420
+[2015.11.08-07.03.59:969][549]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.08-07.04.00:059][549]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.08-07.04.00:281][549]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 221.716ms to complete.
+[2015.11.08-07.04.00:290][549]LogFileHelpers: Loading map 'Level01' took 0.818
+[2015.11.08-07.04.01:517][595]LogEditorViewport: Clicking on Actor (LMB): DestructableWallBP_C (DestructableWallBP72)
+[2015.11.08-07.04.02:776][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-07.04.10:634][996]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.04.10:634][996]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.08-07.04.10:635][996]PIE: New page: PIE session: Level01 (Nov 8, 2015, 11:04:10 AM)
+[2015.11.08-07.04.10:635][996]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level01
+[2015.11.08-07.04.10:751][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.116453s)
+[2015.11.08-07.04.10:753][996]LogAIModule: Creating AISystem for world Level01
+[2015.11.08-07.04.10:754][996]LogPlayLevel: PIE: World Init took: (0.002166s)
+[2015.11.08-07.04.10:754][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level01.Level01 to /Game/Maps/UEDPIE_0_Level01.Level01 (0.119551s)
+[2015.11.08-07.04.10:755][996]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.04.10:827][996]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.08-07.04.10:923][996]LogInit: FAudioDevice initialized.
+[2015.11.08-07.04.10:983][996]LogWorld: Game class is 'FireFIghtingGameMode_C'
+[2015.11.08-07.04.11:057][996]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.08-07.04.11:057][996]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level01.Level01 up for play (max tick rate 60) at 2015.11.08-09.04.11
+[2015.11.08-07.04.11:057][996]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level01.Level01:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-07.04.11:058][996]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level01.Level01:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-07.04.11:073][996]LogWorld: Bringing up level for play took: 0.086003
+[2015.11.08-07.04.11:083][996]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level01 1.065
+[2015.11.08-07.04.11:084][996]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.04.11:124][997]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.088987 > MaxSimulationTimeStep (0.050) for 'AI_Character_252'
+[2015.11.08-07.04.41:274][715]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.04.41:398][715]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.04.41:437][715]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000864AEF1800
+[2015.11.08-07.04.42:554][766]LogEditorViewport: Clicking on Actor (LMB): DestructableWallBP_C (DestructableWallBP31)
+[2015.11.08-07.04.48:721][ 50]LogEditorViewport: Clicking on Actor (LMB): DestructableWallBP_C (DestructableWallBP31)
+[2015.11.08-07.04.49:710][ 94]Cmd: DELETE
+[2015.11.08-07.04.49:710][ 94]Cmd: ACTOR DELETE
+[2015.11.08-07.04.49:716][ 94]LogEditorActor: Deleted Actor: DestructableWallBP_C
+[2015.11.08-07.04.49:748][ 94]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2015.11.08-07.04.51:332][186]Cmd: TRANSACTION UNDO
+[2015.11.08-07.04.51:333][186]LogEditorTransaction: Undo Delete Actors
+[2015.11.08-07.04.51:403][187]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap'
+[2015.11.08-07.04.52:662][253]LogEditorViewport: Clicking on Actor (LMB): DestructableWallBP_C (DestructableWallBP28)
+[2015.11.08-07.04.55:886][424]LogEditorViewport: Clicking on Actor (LMB): DoorWallBP_C (DoorWallBP2)
+[2015.11.08-07.04.56:893][469]LogEditorViewport: Clicking on Actor (LMB): DestructableWallBP_C (DestructableWallBP8)
+[2015.11.08-07.04.58:999][571]LogEditorViewport: Clicking on Actor (LMB): DoorWallBP_C (DoorWallBP4)
+[2015.11.08-07.05.00:482][637]LogEditorViewport: Clicking on Actor (LMB): DestructableWallBP_C (DestructableWallBP15)
+[2015.11.08-07.05.01:097][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-07.06.18:169][556]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.08-07.06.18:211][556]Cmd: MAP LOAD FILE="E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.08-07.06.18:211][556]LightingResults: New page: Lighting Build
+[2015.11.08-07.06.18:269][556]LoadErrors: New page: Loading map: Level01.umap
+[2015.11.08-07.06.18:276][556]MapCheck: New page: Map Check
+[2015.11.08-07.06.18:276][556]LightingResults: New page: Lighting Build
+[2015.11.08-07.06.18:309][556]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008645ED96C0
+[2015.11.08-07.06.18:620][556]LogAIModule: Creating AISystem for world Level01
+[2015.11.08-07.06.19:034][556]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.08-07.06.19:130][556]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.08-07.06.19:340][556]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 209.848ms to complete.
+[2015.11.08-07.06.19:342][556]LogFileHelpers: Loading map 'Level01' took 1.135
+[2015.11.08-07.06.24:564][768]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-07.06.26:159][768]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 107 classes and 0 folders.
+[2015.11.08-07.07.59:019][324]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/1M_Cube.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/CubeMaterial.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/lambert1.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/lambert2.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Bed.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Couch.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Desk.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Door.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Sink.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Toilet.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Wall.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Wall_broke.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Wall_DM.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Wall_Door.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/TemplateFloor.uasset'
+[2015.11.08-07.08.01:184][386]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset'
+[2015.11.08-07.08.01:659][386]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset - no such file(s).
+
+[2015.11.08-07.08.01:677][386]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 G:\Hacktm\Pompier\Fire.fbx)
+[2015.11.08-07.08.01:717][386]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.08-07.08.01:718][386]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.08-07.08.01:718][386]LogFbx: ItemName: Model, ItemCount : 1
+[2015.11.08-07.08.01:718][386]LogFbx: ItemName: Material, ItemCount : 1
+[2015.11.08-07.08.01:718][386]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.11.08-07.08.01:718][386]LogFbx: ItemName: Video, ItemCount : 1
+[2015.11.08-07.08.01:718][386]LogFbx: ItemName: AnimationStack, ItemCount : 2
+[2015.11.08-07.08.01:718][386]LogFbx: ItemName: AnimationLayer, ItemCount : 2
+[2015.11.08-07.08.01:718][386]LogFbx: ItemName: AnimationCurveNode, ItemCount : 5
+[2015.11.08-07.08.01:718][386]LogFbx: ItemName: AnimationCurve, ItemCount : 11
+[2015.11.08-07.08.01:733][386]LogFbx: Loading FBX Scene from G:\Hacktm\Pompier\Fire.fbx
+[2015.11.08-07.08.02:534][386]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.08-07.09.39:973][386]LogFbx: Loading FBX Scene from G:\Hacktm\Pompier\Fire.fbx
+[2015.11.08-07.09.40:056][386]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.08-07.09.40:063][386]LogFbx: =================================================
+[2015.11.08-07.09.40:063][386]LogFbx: Dumping Node START [Cube] 
+[2015.11.08-07.09.40:063][386]LogFbx: 	Total Deformer Count 1971328272.
+[2015.11.08-07.09.40:063][386]LogFbx: 	Attribute (Cube) Type (4).
+[2015.11.08-07.09.40:063][386]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2015.11.08-07.09.40:063][386]LogFbx: Dumping Node END [Cube]
+[2015.11.08-07.09.40:063][386]LogFbx: =================================================
+[2015.11.08-07.09.40:063][386]LogFbx: Dumping Node START [Cube] 
+[2015.11.08-07.09.40:063][386]LogFbx: 	Total Deformer Count 1971328272.
+[2015.11.08-07.09.40:064][386]LogFbx: 	Attribute (Cube) Type (4).
+[2015.11.08-07.09.40:064][386]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2015.11.08-07.09.40:064][386]LogFbx: Dumping Node END [Cube]
+[2015.11.08-07.09.40:069][386]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Material'
+[2015.11.08-07.09.40:069][386]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Material'
+[2015.11.08-07.09.40:074][386]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/FLAMEcol'
+[2015.11.08-07.09.40:075][386]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/FLAMEcol'
+[2015.11.08-07.09.40:075][386]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Geometry/Meshes/FLAMEcol.FLAMEcol'
+[2015.11.08-07.09.40:075][386]LogStreaming:Warning: Failed to read file 'C:\DDDDesing\HackTM2015\FLAMEcol.png' error.
+[2015.11.08-07.09.40:076][386]LogStreaming:Warning: Failed to read file 'G:\Hacktm\Pompier/FLAMEcol.png' error.
+[2015.11.08-07.09.40:077][386]LogStreaming:Warning: Failed to read file 'G:\Hacktm\Pompier/FLAMEcol.png' error.
+[2015.11.08-07.09.40:077][386]LogFbxMaterialImport:Warning: Unable to find TEXTure file FLAMEcol.png. Tried:
+ - C:\DDDDesing\HackTM2015\FLAMEcol.png
+ - G:\Hacktm\Pompier/FLAMEcol.png
+ - G:\Hacktm\Pompier/FLAMEcol.png
+[2015.11.08-07.09.40:092][386]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.11.08-07.09.40:142][386]LogFbx: Triangulating skeletal mesh Cube
+[2015.11.08-07.09.40:474][386]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2015.11.08-07.09.40:490][386]LogSkeletalMesh: Chunk 0: 556 rigid vertices, 0 soft vertices, 1 active bones
+[2015.11.08-07.09.40:561][386]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 770 triangles
+[2015.11.08-07.09.40:567][386]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire_PhysicsAsset'
+[2015.11.08-07.09.40:568][386]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire_PhysicsAsset'
+[2015.11.08-07.09.40:568][386]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/Fire_PhysicsAsset.Fire_PhysicsAsset'
+[2015.11.08-07.09.40:574][386]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.09.40:575][386]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.08-07.09.40:635][386]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset'
+[2015.11.08-07.09.41:006][386]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap'
+[2015.11.08-07.09.41:006][386]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Material.uasset'
+[2015.11.08-07.09.41:109][386]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire_Skeleton'
+[2015.11.08-07.09.41:110][386]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire_Skeleton'
+[2015.11.08-07.09.41:110][386]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/Fire_Skeleton.Fire_Skeleton'
+[2015.11.08-07.09.41:115][386]LogFbx: =================================================
+[2015.11.08-07.09.41:115][386]LogFbx: Dumping Node START [Cube] 
+[2015.11.08-07.09.41:115][386]LogFbx: 	Total Deformer Count 1971336672.
+[2015.11.08-07.09.41:115][386]LogFbx: 	Attribute (Cube) Type (4).
+[2015.11.08-07.09.41:115][386]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2015.11.08-07.09.41:115][386]LogFbx: Dumping Node END [Cube]
+[2015.11.08-07.09.41:115][386]LogFbx: =================================================
+[2015.11.08-07.09.41:115][386]LogFbx: Dumping Node START [Cube] 
+[2015.11.08-07.09.41:115][386]LogFbx: 	Total Deformer Count 1971336672.
+[2015.11.08-07.09.41:116][386]LogFbx: 	Attribute (Cube) Type (4).
+[2015.11.08-07.09.41:116][386]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2015.11.08-07.09.41:116][386]LogFbx: Dumping Node END [Cube]
+[2015.11.08-07.09.41:116][386]LogFbx: SortedLinks :(0) Cube
+[2015.11.08-07.09.41:116][386]LogFbx: SortedLinks :(0) Cube
+[2015.11.08-07.09.41:117][386]LogFbx: Parsing AnimStack CubeAction
+[2015.11.08-07.09.41:118][386]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire_Anim_CubeAction'
+[2015.11.08-07.09.41:119][386]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire_Anim_CubeAction'
+[2015.11.08-07.09.41:119][386]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/Fire_Anim_CubeAction.Fire_Anim_CubeAction'
+[2015.11.08-07.09.41:135][386]LogFbx: Parsing AnimStack Cube|CubeAction
+[2015.11.08-07.09.41:136][386]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire_Anim_Cube_CubeAction'
+[2015.11.08-07.09.41:137][386]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire_Anim_Cube_CubeAction'
+[2015.11.08-07.09.41:137][386]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/Fire_Anim_Cube_CubeAction.Fire_Anim_Cube_CubeAction'
+[2015.11.08-07.09.41:157][386]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.11.08-07.09.41:157][386]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2015.11.08-07.09.41:157][386]FBXImport:Warning: Warning The bone size is too small to create Physics Asset 'Fire_PhysicsAsset' from Skeletal Mesh 'Fire'. You will have to create physics asset manually. 
+[2015.11.08-07.09.41:210][386]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset - no such file(s).
+
+[2015.11.08-07.09.41:373][387]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Material.uasset - no such file(s).
+
+[2015.11.08-07.09.41:414][388]LogMaterial:Warning: Material /Game/Geometry/Meshes/Material.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.08-07.09.41:487][388]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_PhysicsAsset.uasset'
+[2015.11.08-07.09.41:487][388]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.11.08-07.09.41:558][388]LogMaterial: 0.000198 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-07.09.41:734][394]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_CubeAction.uasset'
+[2015.11.08-07.09.41:742][394]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Skeleton.uasset'
+[2015.11.08-07.09.41:843][397]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_PhysicsAsset.uasset - no such file(s).
+
+[2015.11.08-07.09.42:092][407]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_CubeAction.uasset - no such file(s).
+
+[2015.11.08-07.09.42:168][410]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Skeleton.uasset - no such file(s).
+
+[2015.11.08-07.09.42:425][421]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_Cube_CubeAction.uasset'
+[2015.11.08-07.09.42:812][437]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_Cube_CubeAction.uasset - no such file(s).
+
+[2015.11.08-07.09.42:946][441]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_Cube_CubeAction.uasset'
+[2015.11.08-07.09.43:356][460]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_Cube_CubeAction.uasset - no such file(s).
+
+[2015.11.08-07.10.05:516][536]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.11.08-07.10.43:876][719]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.10.43:933][719]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000862C882200
+[2015.11.08-07.10.43:935][719]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000862C881800
+[2015.11.08-07.10.46:326][720]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.46:327][720]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.46:327][720]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.46:417][721]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.46:417][721]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.46:560][726]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.46:560][726]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.46:595][727]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.46:595][727]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.46:749][732]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.46:749][732]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.46:780][733]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.46:781][733]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.46:931][738]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.46:931][738]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.46:964][739]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.46:965][739]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.47:115][744]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.47:115][744]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.47:185][745]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.47:185][745]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.47:304][750]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.47:304][750]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.47:336][751]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.47:336][751]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.47:486][756]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.47:486][756]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.47:519][757]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.47:519][757]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.47:666][762]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.47:666][762]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.47:700][763]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.47:700][763]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.47:850][768]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.47:850][768]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.47:884][769]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.47:884][769]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.48:032][774]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.48:033][774]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.48:067][775]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.48:067][775]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.48:260][780]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.48:261][780]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.48:284][781]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.48:284][781]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.48:401][786]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.48:401][786]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.48:435][787]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.48:435][787]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.48:585][792]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.48:585][792]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.48:620][793]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.48:620][793]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.48:770][798]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.48:770][798]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.48:803][799]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.48:804][799]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.48:952][804]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.48:952][804]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.48:986][805]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.48:986][805]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.49:152][811]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.49:152][811]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.49:185][812]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.49:185][812]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.49:377][817]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.49:377][817]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.49:399][818]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.49:400][818]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.49:516][823]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.49:516][823]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.49:549][824]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.49:550][824]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.49:698][829]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.49:699][829]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.49:733][830]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.49:733][830]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.49:881][835]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.49:881][835]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.49:916][836]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.49:916][836]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.50:062][841]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.50:062][841]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.50:097][842]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.50:097][842]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.50:179][845]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.10.53:828][847]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.53:829][847]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.53:829][847]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.54:024][852]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.54:024][852]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.54:189][857]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.54:189][857]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.54:355][862]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.54:356][862]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.54:521][867]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.54:522][867]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.54:730][872]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.54:730][872]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.54:854][877]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.54:854][877]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.55:020][882]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.55:021][882]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.55:186][887]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.55:186][887]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.55:353][892]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.55:354][892]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.55:522][897]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.55:522][897]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.55:688][902]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.55:688][902]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.55:901][907]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.55:902][907]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.56:026][912]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire'
+[2015.11.08-07.10.56:027][912]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Geometry/Meshes/Fire.Fire'
+[2015.11.08-07.10.56:096][914]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.11.01:363][975]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.11.06:120][975]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimSingleNodeInstance_50' or package '/Engine/Transient'.
+[2015.11.08-07.11.06:485][975]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008627275080
+[2015.11.08-07.14.37:672][490]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset'
+[2015.11.08-07.14.38:086][490]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset - no such file(s).
+
+[2015.11.08-07.14.38:100][490]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 G:\Hacktm\Pompier\Fire.fbx)
+[2015.11.08-07.14.38:218][490]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.08-07.14.38:218][490]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.08-07.14.38:218][490]LogFbx: ItemName: Model, ItemCount : 1
+[2015.11.08-07.14.38:219][490]LogFbx: ItemName: Material, ItemCount : 1
+[2015.11.08-07.14.38:219][490]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.11.08-07.14.38:219][490]LogFbx: ItemName: Video, ItemCount : 1
+[2015.11.08-07.14.38:219][490]LogFbx: ItemName: AnimationStack, ItemCount : 2
+[2015.11.08-07.14.38:219][490]LogFbx: ItemName: AnimationLayer, ItemCount : 2
+[2015.11.08-07.14.38:219][490]LogFbx: ItemName: AnimationCurveNode, ItemCount : 5
+[2015.11.08-07.14.38:219][490]LogFbx: ItemName: AnimationCurve, ItemCount : 11
+[2015.11.08-07.14.38:240][490]LogFbx: Loading FBX Scene from G:\Hacktm\Pompier\Fire.fbx
+[2015.11.08-07.14.39:362][490]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.08-07.14.55:327][490]LogFbx: Loading FBX Scene from G:\Hacktm\Pompier\Fire.fbx
+[2015.11.08-07.14.55:494][490]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.08-07.14.55:504][490]LogFbx: =================================================
+[2015.11.08-07.14.55:504][490]LogFbx: Dumping Node START [Fireball] 
+[2015.11.08-07.14.55:504][490]LogFbx: 	Total Deformer Count 950301128.
+[2015.11.08-07.14.55:504][490]LogFbx: 	Attribute (Cube) Type (4).
+[2015.11.08-07.14.55:504][490]LogFbx: 		[Node Attribute Child 1] Fireball (Type Mesh).
+[2015.11.08-07.14.55:504][490]LogFbx: Dumping Node END [Fireball]
+[2015.11.08-07.14.55:504][490]LogFbx: =================================================
+[2015.11.08-07.14.55:504][490]LogFbx: Dumping Node START [Fireball] 
+[2015.11.08-07.14.55:504][490]LogFbx: 	Total Deformer Count 950295528.
+[2015.11.08-07.14.55:504][490]LogFbx: 	Attribute (Cube) Type (4).
+[2015.11.08-07.14.55:504][490]LogFbx: 		[Node Attribute Child 1] Fireball (Type Mesh).
+[2015.11.08-07.14.55:504][490]LogFbx: Dumping Node END [Fireball]
+[2015.11.08-07.14.55:506][490]LogFbx: Triangulating skeletal mesh Fireball
+[2015.11.08-07.14.55:854][490]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2015.11.08-07.14.55:871][490]LogSkeletalMesh: Chunk 0: 556 rigid vertices, 0 soft vertices, 1 active bones
+[2015.11.08-07.14.55:873][490]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 770 triangles
+[2015.11.08-07.14.55:891][490]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire_PhysicsAsset'
+[2015.11.08-07.14.55:892][490]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire_PhysicsAsset'
+[2015.11.08-07.14.55:892][490]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/Fire_PhysicsAsset.Fire_PhysicsAsset'
+[2015.11.08-07.14.55:894][490]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire_Skeleton'
+[2015.11.08-07.14.55:894][490]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire_Skeleton'
+[2015.11.08-07.14.55:894][490]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/Fire_Skeleton.Fire_Skeleton'
+[2015.11.08-07.14.55:897][490]LogFbx: =================================================
+[2015.11.08-07.14.55:897][490]LogFbx: Dumping Node START [Fireball] 
+[2015.11.08-07.14.55:897][490]LogFbx: 	Total Deformer Count 950300624.
+[2015.11.08-07.14.55:897][490]LogFbx: 	Attribute (Cube) Type (4).
+[2015.11.08-07.14.55:897][490]LogFbx: 		[Node Attribute Child 1] Fireball (Type Mesh).
+[2015.11.08-07.14.55:897][490]LogFbx: Dumping Node END [Fireball]
+[2015.11.08-07.14.55:897][490]LogFbx: =================================================
+[2015.11.08-07.14.55:897][490]LogFbx: Dumping Node START [Fireball] 
+[2015.11.08-07.14.55:897][490]LogFbx: 	Total Deformer Count 950293848.
+[2015.11.08-07.14.55:897][490]LogFbx: 	Attribute (Cube) Type (4).
+[2015.11.08-07.14.55:897][490]LogFbx: 		[Node Attribute Child 1] Fireball (Type Mesh).
+[2015.11.08-07.14.55:898][490]LogFbx: Dumping Node END [Fireball]
+[2015.11.08-07.14.55:898][490]LogFbx: SortedLinks :(0) Fireball
+[2015.11.08-07.14.55:898][490]LogFbx: SortedLinks :(0) Fireball
+[2015.11.08-07.14.55:899][490]LogFbx: Parsing AnimStack CubeAction
+[2015.11.08-07.14.55:899][490]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire_Anim_CubeAction'
+[2015.11.08-07.14.55:900][490]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire_Anim_CubeAction'
+[2015.11.08-07.14.55:900][490]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/Fire_Anim_CubeAction.Fire_Anim_CubeAction'
+[2015.11.08-07.14.55:936][490]LogFbx: Parsing AnimStack Fireball|CubeAction
+[2015.11.08-07.14.55:937][490]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire_Anim_Fireball_CubeAction'
+[2015.11.08-07.14.55:938][490]LogLinker:Warning: Can't find file '/Game/Geometry/Meshes/Fire_Anim_Fireball_CubeAction'
+[2015.11.08-07.14.55:938][490]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Geometry/Meshes/Fire_Anim_Fireball_CubeAction.Fire_Anim_Fireball_CubeAction'
+[2015.11.08-07.14.55:971][490]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.11.08-07.14.55:971][490]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2015.11.08-07.14.56:133][491]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset'
+[2015.11.08-07.14.56:486][498]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Skeleton.uasset'
+[2015.11.08-07.14.56:486][498]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_PhysicsAsset.uasset'
+[2015.11.08-07.14.56:544][499]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset - no such file(s).
+
+[2015.11.08-07.14.56:858][508]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Skeleton.uasset - no such file(s).
+
+[2015.11.08-07.14.56:890][509]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_PhysicsAsset.uasset - no such file(s).
+
+[2015.11.08-07.14.57:152][517]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_CubeAction.uasset'
+[2015.11.08-07.14.57:473][526]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_Fireball_CubeAction.uasset'
+[2015.11.08-07.14.57:566][529]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_CubeAction.uasset - no such file(s).
+
+[2015.11.08-07.14.57:669][533]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/1M_Cube.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/CubeMaterial.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_CubeAction.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_Fireball_CubeAction.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/lambert1.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/lambert2.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Material.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Bed.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Couch.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Desk.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Door.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Sink.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Toilet.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Wall.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Wall_broke.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Wall_DM.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Wall_Door.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/TemplateFloor.uasset'
+[2015.11.08-07.14.57:864][540]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_Fireball_CubeAction.uasset - no such file(s).
+
+[2015.11.08-07.14.58:066][548]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_CubeAction.uasset - no such file(s).
+
+[2015.11.08-07.14.58:066][548]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_Fireball_CubeAction.uasset - no such file(s).
+
+[2015.11.08-07.14.58:066][548]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Material.uasset - no such file(s).
+
+[2015.11.08-07.15.03:442][725]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2015.11.08-07.15.03:533][725]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.11.08-07.15.12:812][964]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/mat_bed.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/mat_couch.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/mat_desk.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/MAT_master.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/mat_sink.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/mat_toilet.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/mat_wall.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/mat_wall_broken.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/mat_wall_door.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/tex_bed.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/tex_couch.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/tex_desk.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/tex_sink.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/tex_toire.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/TEX_wall.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/TEX_Wall_Broken.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/TEX_WallDoor.uasset'
+[2015.11.08-07.15.35:196][288]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/FLAMEcol.uasset'
+[2015.11.08-07.15.35:576][288]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/FLAMEcol.uasset - no such file(s).
+
+[2015.11.08-07.15.35:592][288]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 G:\Hacktm\Pompier\FLAMEcol.png)
+[2015.11.08-07.15.36:659][288]LogTexture:Display: Building textures: FLAMEcol (AutoDXT)
+[2015.11.08-07.15.46:395][304]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/FLAMEcol.uasset'
+[2015.11.08-07.15.46:776][318]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/FLAMEcol.uasset - no such file(s).
+
+[2015.11.08-07.15.56:810][619]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2015.11.08-07.15.56:864][619]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.11.08-07.16.00:401][692]LogRenderer: Reallocating scene render targets to support 1208x860 (Frame:27673).
+[2015.11.08-07.16.22:197][170]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset'
+[2015.11.08-07.16.22:604][170]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset - no such file(s).
+
+[2015.11.08-07.16.22:644][170]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.16.23:241][178]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset'
+[2015.11.08-07.16.23:648][186]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset - no such file(s).
+
+[2015.11.08-07.16.25:800][247]LogMaterial:Warning: Material /Game/Geometry/Meshes/Textures/flame.flame needed to have new flag set bUsedWithSkeletalMesh !
+[2015.11.08-07.16.25:803][247]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.16.25:842][247]LogMaterial: 0.000138 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-07.16.28:138][326]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.16.28:223][326]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.16.28:244][326]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-07.16.28:273][326]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.08-07.16.32:449][514]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.16.32:469][514]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-07.16.37:303][748]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.08-07.16.37:303][748]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.08-07.16.37:303][748]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.08-07.16.51:960][427]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.16.52:000][427]LogMaterial: 0.000298 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-07.16.52:003][427]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.11.08-07.16.57:808][643]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.08-07.16.57:808][643]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.08-07.16.57:808][643]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.08-07.17.00:827][761]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.17.00:871][761]LogMaterial: 0.000365 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-07.17.00:902][761]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.11.08-07.17.04:512][862]LogMaterialEditor: Saving and Compiling material flame
+[2015.11.08-07.17.05:844][862]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.17.05:899][862]LogMaterial: 0.000178 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-07.17.05:937][862]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.17.05:991][862]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.17.06:027][862]LogMaterial: 0.003947 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-07.17.06:652][862]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset'
+[2015.11.08-07.17.07:036][862]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset - no such file(s).
+
+[2015.11.08-07.17.16:076][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Textures/flame" FILE="E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset" SILENT=true
+[2015.11.08-07.17.16:092][862]LogSavePackage: Save=14.118381ms
+[2015.11.08-07.17.16:092][862]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/flame71B83C9141B0DF0B2604C48379B08068.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset'
+[2015.11.08-07.17.16:094][862]LogSavePackage: Total save time: 16.440440ms
+[2015.11.08-07.17.16:094][862]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset
+[2015.11.08-07.17.16:682][862]LogSourceControl: Attempting 'p4 add E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset'
+[2015.11.08-07.17.17:274][862]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.11.08-07.17.17:274][862]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.08-07.17.17:274][862]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.08-07.18.01:537][926]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.18.01:580][926]LogMaterial: 0.000362 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-07.18.01:612][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.11.08-07.18.08:958][207]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.11.08-07.18.08:958][207]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.08-07.18.08:958][207]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.08-07.18.14:091][511]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.18.14:112][511]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.18.14:127][511]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-07.18.18:774][742]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.11.08-07.18.18:774][742]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.08-07.18.18:774][742]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.08-07.18.38:529][293]LogSourceControl: Attempting 'p4 fstat -Or C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/AICON-Green.uasset C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/AICON-Red.uasset C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/Bad.uasset C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/Black.uasset C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/DefaultTexture.uasset C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/DefaultTextureCube.uasset C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/GradientTexture0.uasset C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/Gray.uasset C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/M_StreamingPause.uasset C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/StreamingPauseIcon.uasset C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/WhiteSquareTexture.uasset C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/WireframeTexture.uasset'
+[2015.11.08-07.18.38:899][301]SourceControl: Info Path 'C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/AICON-Green.uasset' is not under client's root 'E:\Unreal\HackTMWS'.
+
+[2015.11.08-07.18.38:900][301]SourceControl: Info Path 'C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/AICON-Red.uasset' is not under client's root 'E:\Unreal\HackTMWS'.
+
+[2015.11.08-07.18.38:900][301]SourceControl: Info Path 'C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/Bad.uasset' is not under client's root 'E:\Unreal\HackTMWS'.
+
+[2015.11.08-07.18.38:900][301]SourceControl: Info Path 'C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/Black.uasset' is not under client's root 'E:\Unreal\HackTMWS'.
+
+[2015.11.08-07.18.38:900][301]SourceControl: Info Path 'C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/DefaultTexture.uasset' is not under client's root 'E:\Unreal\HackTMWS'.
+
+[2015.11.08-07.18.38:900][301]SourceControl: Info Path 'C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/DefaultTextureCube.uasset' is not under client's root 'E:\Unreal\HackTMWS'.
+
+[2015.11.08-07.18.38:901][301]SourceControl: Info Path 'C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/GradientTexture0.uasset' is not under client's root 'E:\Unreal\HackTMWS'.
+
+[2015.11.08-07.18.38:901][301]SourceControl: Info Path 'C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/Gray.uasset' is not under client's root 'E:\Unreal\HackTMWS'.
+
+[2015.11.08-07.18.38:901][301]SourceControl: Info Path 'C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/M_StreamingPause.uasset' is not under client's root 'E:\Unreal\HackTMWS'.
+
+[2015.11.08-07.18.38:901][301]SourceControl: Info Path 'C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/StreamingPauseIcon.uasset' is not under client's root 'E:\Unreal\HackTMWS'.
+
+[2015.11.08-07.18.38:902][301]SourceControl: Info Path 'C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/WhiteSquareTexture.uasset' is not under client's root 'E:\Unreal\HackTMWS'.
+
+[2015.11.08-07.18.38:902][301]SourceControl: Info Path 'C:/Program Files/Epic Games/4.9/Engine/Content/EngineResources/WireframeTexture.uasset' is not under client's root 'E:\Unreal\HackTMWS'.
+
+[2015.11.08-07.18.59:641][795]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.18.59:678][795]LogMaterial: 0.000352 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-07.18.59:706][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.11.08-07.19.06:272][ 62]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.11.08-07.19.06:273][ 62]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.08-07.19.06:273][ 62]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.08-07.19.30:906][937]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.19.30:993][937]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.19.31:038][937]LogMaterial: 0.000205 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-07.19.41:113][410]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2015.11.08-07.19.41:113][410]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.11.08-07.19.41:113][410]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.11.08-07.19.41:113][410]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.11.08-07.19.49:313][901]LogMaterialEditor: Applying material flame
+[2015.11.08-07.19.50:450][901]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.19.50:558][901]LogMaterial: 0.000361 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-07.19.50:618][901]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.19.50:735][901]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.19.50:819][901]LogMaterial: 0.008904 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-07.19.51:330][912]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset'
+[2015.11.08-07.19.56:146][102]LogMaterialEditor: Saving and Compiling material flame
+[2015.11.08-07.19.56:783][102]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset'
+[2015.11.08-07.20.10:653][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Textures/flame" FILE="E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset" SILENT=true
+[2015.11.08-07.20.10:703][102]LogSavePackage: Save=33.627106ms
+[2015.11.08-07.20.10:703][102]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/flame8D0101BD42C4B93D897BD1B206645A14.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset'
+[2015.11.08-07.20.10:707][102]LogSavePackage: Total save time: 51.692985ms
+[2015.11.08-07.20.10:707][102]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset
+[2015.11.08-07.20.10:732][102]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.11.08-07.20.10:732][102]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 82 instructions
+[2015.11.08-07.20.10:732][102]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.11.08-07.20.10:732][102]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.11.08-07.20.14:133][195]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.20.14:183][195]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000865F4B4220
+[2015.11.08-07.20.14:185][195]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000865F4B7100
+[2015.11.08-07.20.14:203][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level01" FILE="E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Maps/Level01_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.11.08-07.20.15:016][195]LogSavePackage: Save=781.376587ms
+[2015.11.08-07.20.15:016][195]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/Level01_Auto160F5FE4B443D076954884FA6CA9003FB.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Maps/Level01_Auto1.umap'
+[2015.11.08-07.20.15:020][195]LogSavePackage: Total save time: 813.628823ms
+[2015.11.08-07.20.15:020][195]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Maps/Level01_Auto1.umap
+[2015.11.08-07.20.15:024][195]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level01' took 0.891
+[2015.11.08-07.20.15:024][195]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.891
+[2015.11.08-07.20.15:036][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Fire_Anim_CubeAction] ([1] browsable assets)...
+[2015.11.08-07.20.15:095][195]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Geometry/Meshes/Fire_Anim_CubeAction.Fire_Anim_CubeAction]
+[2015.11.08-07.20.15:095][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Fire_Anim_CubeAction]
+[2015.11.08-07.20.15:128][195]LogSavePackage: Save=29.583813ms
+[2015.11.08-07.20.15:128][195]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/Fire_Anim_CubeAction_Auto1863BEE3A459DC177E81C9C97F47358CA.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Fire_Anim_CubeAction_Auto1.uasset'
+[2015.11.08-07.20.15:129][195]LogSavePackage: Total save time: 32.009359ms
+[2015.11.08-07.20.15:129][195]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Fire_Anim_CubeAction_Auto1.uasset
+[2015.11.08-07.20.15:139][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Material] ([1] browsable assets)...
+[2015.11.08-07.20.15:186][195]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/Meshes/Material.Material]
+[2015.11.08-07.20.15:186][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Material]
+[2015.11.08-07.20.15:186][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Material" FILE="E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Material_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.11.08-07.20.15:220][195]LogSavePackage: Save=30.667013ms
+[2015.11.08-07.20.15:220][195]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/Material_Auto1719E3C15442D7FC37C07DFB7B9250AF1.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Material_Auto1.uasset'
+[2015.11.08-07.20.15:221][195]LogSavePackage: Total save time: 32.908250ms
+[2015.11.08-07.20.15:221][195]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Material_Auto1.uasset
+[2015.11.08-07.20.15:231][195]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Geometry/Meshes/Fire_PhysicsAsset] ([1] browsable assets)...
+[2015.11.08-07.20.15:233][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Fire_PhysicsAsset]
+[2015.11.08-07.20.15:233][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Fire_PhysicsAsset" FILE="E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Fire_PhysicsAsset_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.11.08-07.20.15:242][195]LogSavePackage: Save=5.528470ms
+[2015.11.08-07.20.15:242][195]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/Fire_PhysicsAsset_Auto1D7E4E8BE43CCF78D78C8B4A47CCD58F8.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Fire_PhysicsAsset_Auto1.uasset'
+[2015.11.08-07.20.15:243][195]LogSavePackage: Total save time: 7.871483ms
+[2015.11.08-07.20.15:243][195]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Fire_PhysicsAsset_Auto1.uasset
+[2015.11.08-07.20.15:252][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Fire] ([1] browsable assets)...
+[2015.11.08-07.20.15:296][195]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Geometry/Meshes/Fire.Fire]
+[2015.11.08-07.20.15:296][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Fire]
+[2015.11.08-07.20.15:296][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Fire" FILE="E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Fire_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.11.08-07.20.15:331][195]LogSavePackage: Save=31.317446ms
+[2015.11.08-07.20.15:331][195]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/Fire_Auto1147855B841AA78C34912D597F92089FE.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Fire_Auto1.uasset'
+[2015.11.08-07.20.15:332][195]LogSavePackage: Total save time: 33.562530ms
+[2015.11.08-07.20.15:333][195]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Fire_Auto1.uasset
+[2015.11.08-07.20.15:342][195]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Geometry/Meshes/Fire_Skeleton] ([1] browsable assets)...
+[2015.11.08-07.20.15:343][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Fire_Skeleton]
+[2015.11.08-07.20.15:343][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Fire_Skeleton" FILE="E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Fire_Skeleton_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.11.08-07.20.15:350][195]LogSavePackage: Save=4.293886ms
+[2015.11.08-07.20.15:350][195]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/Fire_Skeleton_Auto11CFC6B7249FE5EC6C57DC785411B591B.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Fire_Skeleton_Auto1.uasset'
+[2015.11.08-07.20.15:352][195]LogSavePackage: Total save time: 6.832756ms
+[2015.11.08-07.20.15:352][195]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Fire_Skeleton_Auto1.uasset
+[2015.11.08-07.20.15:361][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Fire_Anim_Fireball_CubeAction] ([1] browsable assets)...
+[2015.11.08-07.20.15:406][195]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Geometry/Meshes/Fire_Anim_Fireball_CubeAction.Fire_Anim_Fireball_CubeAction]
+[2015.11.08-07.20.15:407][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Fire_Anim_Fireball_CubeAction]
+[2015.11.08-07.20.15:441][195]LogSavePackage: Save=31.444027ms
+[2015.11.08-07.20.15:441][195]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/Fire_Anim_Fireball_CubeAction_Auto196FF828F40785C6DB734A99B10AD037A.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Fire_Anim_Fireball_CubeAction_Auto1.uasset'
+[2015.11.08-07.20.15:443][195]LogSavePackage: Total save time: 33.719048ms
+[2015.11.08-07.20.15:443][195]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Fire_Anim_Fireball_CubeAction_Auto1.uasset
+[2015.11.08-07.20.15:452][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/Textures/FLAMEcol] ([1] browsable assets)...
+[2015.11.08-07.20.15:477][195]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Geometry/Meshes/Textures/FLAMEcol.FLAMEcol]
+[2015.11.08-07.20.15:477][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Textures/FLAMEcol]
+[2015.11.08-07.20.15:477][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Textures/FLAMEcol" FILE="E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Textures/FLAMEcol_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.11.08-07.20.15:515][195]LogSavePackage: Save=34.566620ms
+[2015.11.08-07.20.15:516][195]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/FLAMEcol_Auto110549B9F4D90DCF7C77943B3CD7CF4AD.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Textures/FLAMEcol_Auto1.uasset'
+[2015.11.08-07.20.15:517][195]LogSavePackage: Total save time: 37.105490ms
+[2015.11.08-07.20.15:517][195]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Saved/Autosaves/Game/Geometry/Meshes/Textures/FLAMEcol_Auto1.uasset
+[2015.11.08-07.20.15:517][195]LogFileHelpers: Auto-saving content packages took 0.491
+[2015.11.08-07.20.39:534][950]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/1M_Cube.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/CubeMaterial.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_CubeAction.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_Fireball_CubeAction.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_PhysicsAsset.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Skeleton.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/lambert1.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/lambert2.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Material.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Bed.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Couch.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Desk.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Door.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Sink.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Toilet.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Wall.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Wall_broke.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Wall_DM.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/SM_Wall_Door.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/TemplateFloor.uasset'
+[2015.11.08-07.20.39:914][958]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset - no such file(s).
+
+[2015.11.08-07.20.39:915][958]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_CubeAction.uasset - no such file(s).
+
+[2015.11.08-07.20.39:915][958]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_Fireball_CubeAction.uasset - no such file(s).
+
+[2015.11.08-07.20.39:915][958]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_PhysicsAsset.uasset - no such file(s).
+
+[2015.11.08-07.20.39:915][958]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Skeleton.uasset - no such file(s).
+
+[2015.11.08-07.20.39:915][958]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Material.uasset - no such file(s).
+
+[2015.11.08-07.20.44:218][ 71]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2015.11.08-07.21.15:427][ 32]LogMaterialEditor: Saving and Compiling material flame
+[2015.11.08-07.21.16:045][ 32]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset'
+[2015.11.08-07.21.16:509][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Textures/flame" FILE="E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset" SILENT=true
+[2015.11.08-07.21.16:533][ 32]LogSavePackage: Save=7.433157ms
+[2015.11.08-07.21.16:533][ 32]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/flame5621BCDC4A4216EAD2637C94776DBF89.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset'
+[2015.11.08-07.21.16:535][ 32]LogSavePackage: Total save time: 20.870741ms
+[2015.11.08-07.21.16:535][ 32]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/flame.uasset
+[2015.11.08-07.22.15:260][834]LogEditorViewport: Clicking on Actor (LMB): DestructableWallBP_C (DestructableWallBP71)
+[2015.11.08-07.22.24:233][147]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.22.24:233][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.08-07.22.24:234][147]PIE: New page: PIE session: Level01 (Nov 8, 2015, 11:22:24 AM)
+[2015.11.08-07.22.24:234][147]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level01
+[2015.11.08-07.22.24:327][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093440s)
+[2015.11.08-07.22.24:329][147]LogAIModule: Creating AISystem for world Level01
+[2015.11.08-07.22.24:330][147]LogPlayLevel: PIE: World Init took: (0.002138s)
+[2015.11.08-07.22.24:330][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level01.Level01 to /Game/Maps/UEDPIE_0_Level01.Level01 (0.096465s)
+[2015.11.08-07.22.24:390][147]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000865F4B59E0
+[2015.11.08-07.22.24:392][147]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000865F4B4900
+[2015.11.08-07.22.24:426][147]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.08-07.22.24:523][147]LogInit: FAudioDevice initialized.
+[2015.11.08-07.22.24:581][147]LogWorld: Game class is 'FireFIghtingGameMode_C'
+[2015.11.08-07.22.24:652][147]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.08-07.22.24:652][147]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level01.Level01 up for play (max tick rate 60) at 2015.11.08-09.22.24
+[2015.11.08-07.22.24:652][147]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level01.Level01:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-07.22.24:653][147]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level01.Level01:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-07.22.24:667][147]LogWorld: Bringing up level for play took: 0.082966
+[2015.11.08-07.22.24:677][147]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level01 0.659
+[2015.11.08-07.22.24:677][147]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.22.24:717][148]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.091700 > MaxSimulationTimeStep (0.050) for 'AI_Character_252'
+[2015.11.08-07.22.28:521][311]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.22.28:590][311]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.22.28:651][311]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008627D1E660
+[2015.11.08-07.23.34:265][298]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_BBD.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_BT.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Controller.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/AITest.umap E:/Unreal/HackTMWS/Hackathon/Content/AI/Env_BOT.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/Env_Player.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/EQS_Test.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/Hide_Service.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/HideQuery.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/Wonder_BTT.uasset'
+[2015.11.08-07.23.41:263][505]LogSourceControl: Attempting 'p4 fstat -Or C:/Program Files/Epic Games/4.9/Engine/Content/EditorMeshes/SkeletalMesh/DefaultSkeletalMesh.uasset E:/Unreal/HackTMWS/Hackathon/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset C:/Program Files/Epic Games/4.9/Engine/Content/EngineMeshes/SkeletalCube.uasset C:/Program Files/Epic Games/4.9/Engine/Content/Tutorial/SubEditors/TutorialAssets/Tutorial_DM.uasset C:/Program Files/Epic Games/4.9/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.uasset'
+[2015.11.08-07.23.41:514][516]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Fire_Skeleton, removing AnimBP from actor.
+[2015.11.08-07.23.41:514][516]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Fire_Skeleton, removing AnimBP from actor.
+[2015.11.08-07.23.41:515][516]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Fire_Skeleton, removing AnimBP from actor.
+[2015.11.08-07.23.41:531][516]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.23.41:590][517]SourceControl: Info Path 'C:/Program Files/Epic Games/4.9/Engine/Content/EditorMeshes/SkeletalMesh/DefaultSkeletalMesh.uasset' is not under client's root 'E:\Unreal\HackTMWS'.
+
+[2015.11.08-07.23.41:590][517]SourceControl: Info Path 'C:/Program Files/Epic Games/4.9/Engine/Content/EngineMeshes/SkeletalCube.uasset' is not under client's root 'E:\Unreal\HackTMWS'.
+
+[2015.11.08-07.23.41:590][517]SourceControl: Info Path 'C:/Program Files/Epic Games/4.9/Engine/Content/Tutorial/SubEditors/TutorialAssets/Tutorial_DM.uasset' is not under client's root 'E:\Unreal\HackTMWS'.
+
+[2015.11.08-07.23.41:590][517]SourceControl: Info Path 'C:/Program Files/Epic Games/4.9/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.uasset' is not under client's root 'E:\Unreal\HackTMWS'.
+
+[2015.11.08-07.23.42:073][537]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset'
+[2015.11.08-07.23.45:368][666]BlueprintLog: New page: Compile AI_Character
+[2015.11.08-07.23.46:024][666]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.11.08-07.23.46:121][666]BlueprintEditorCompileResults: Info [1223.47] Compile of AI_Character successful! [in 752 ms]
+[2015.11.08-07.23.46:304][670]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-07.23.46:305][670]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/Hide_Service.uasset'
+[2015.11.08-07.23.46:305][670]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/Flamable_Master_BP.uasset'
+[2015.11.08-07.23.47:206][723]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableCouch.uasset'
+[2015.11.08-07.23.47:206][723]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableToilet.uasset'
+[2015.11.08-07.23.47:223][724]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableBed.uasset'
+[2015.11.08-07.23.48:110][771]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableDesk.uasset'
+[2015.11.08-07.23.48:110][771]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableSink.uasset'
+[2015.11.08-07.23.48:134][772]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset'
+[2015.11.08-07.23.50:515][866]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.23.50:516][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.08-07.23.50:516][866]PIE: New page: PIE session: Level01 (Nov 8, 2015, 11:23:50 AM)
+[2015.11.08-07.23.50:516][866]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level01
+[2015.11.08-07.23.50:615][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.098440s)
+[2015.11.08-07.23.50:617][866]LogAIModule: Creating AISystem for world Level01
+[2015.11.08-07.23.50:617][866]LogPlayLevel: PIE: World Init took: (0.002192s)
+[2015.11.08-07.23.50:618][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level01.Level01 to /Game/Maps/UEDPIE_0_Level01.Level01 (0.101561s)
+[2015.11.08-07.23.50:618][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.23.50:716][866]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.08-07.23.50:820][866]LogInit: FAudioDevice initialized.
+[2015.11.08-07.23.50:873][866]LogWorld: Game class is 'FireFIghtingGameMode_C'
+[2015.11.08-07.23.50:943][866]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.08-07.23.50:943][866]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level01.Level01 up for play (max tick rate 60) at 2015.11.08-09.23.50
+[2015.11.08-07.23.50:943][866]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level01.Level01:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-07.23.50:944][866]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level01.Level01:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-07.23.50:960][866]LogWorld: Bringing up level for play took: 0.083019
+[2015.11.08-07.23.50:969][866]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level01 0.951
+[2015.11.08-07.23.50:970][866]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.23.51:006][867]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.094302 > MaxSimulationTimeStep (0.050) for 'AI_Character_C_0'
+[2015.11.08-07.24.33:057][768]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.24.33:153][768]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.24.33:218][768]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008627691E40
+[2015.11.08-07.24.35:063][831]LogEditorViewport: Clicking on Actor (LMB): AI_Character_C (AI_Character)
+[2015.11.08-07.25.11:983][375]LogEditorViewport: Clicking on Actor (LMB): AI_Character_C (AI_Character)
+[2015.11.08-07.25.24:826][754]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2015.11.08-07.25.24:862][754]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.11.08-07.25.24:941][755]LogRenderer: Reallocating scene render targets to support 1208x880 (Frame:67048).
+[2015.11.08-07.25.39:364][307]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset'
+[2015.11.08-07.25.39:701][307]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset - no such file(s).
+
+[2015.11.08-07.25.39:823][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Fire" FILE="E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset" SILENT=true
+[2015.11.08-07.25.39:859][307]LogSavePackage: Save=32.929203ms
+[2015.11.08-07.25.39:860][307]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/Fire0968308E4D374FDAF858A5A250EE7B13.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset'
+[2015.11.08-07.25.39:864][307]LogSavePackage: Total save time: 38.588103ms
+[2015.11.08-07.25.39:864][307]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset
+[2015.11.08-07.25.40:407][307]LogSourceControl: Attempting 'p4 add E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset'
+[2015.11.08-07.25.56:093][866]BlueprintLog: New page: Compile AI_Character
+[2015.11.08-07.25.56:906][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.25.56:950][866]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-07.25.56:995][866]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/Flamable_Master_BP.uasset'
+[2015.11.08-07.25.56:996][866]BlueprintEditorCompileResults: Info [1354.35] Compile of AI_Character successful! [in 902 ms]
+[2015.11.08-07.25.57:101][867]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/Hide_Service.uasset'
+[2015.11.08-07.25.57:810][900]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableToilet.uasset'
+[2015.11.08-07.25.57:855][902]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableBed.uasset'
+[2015.11.08-07.25.57:977][908]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableCouch.uasset'
+[2015.11.08-07.25.58:696][947]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableSink.uasset'
+[2015.11.08-07.25.58:755][951]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableDesk.uasset'
+[2015.11.08-07.25.58:904][960]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset'
+[2015.11.08-07.26.02:626][116]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.26.07:741][286]LogEditorViewport: Clicking on Actor (LMB): AI_Character_C (AI_Character)
+[2015.11.08-07.26.28:207][968]LogEditorViewport: Clicking on Actor (LMB): AI_Character_C (AI_Character)
+[2015.11.08-07.26.40:457][389]BlueprintLog: New page: Compile AI_Character
+[2015.11.08-07.26.41:299][389]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.11.08-07.26.41:344][389]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/Hide_Service.uasset'
+[2015.11.08-07.26.41:345][389]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/Flamable_Master_BP.uasset'
+[2015.11.08-07.26.41:348][389]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-07.26.41:392][389]BlueprintEditorCompileResults: Info [1398.74] Compile of AI_Character successful! [in 934 ms]
+[2015.11.08-07.26.42:216][422]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableToilet.uasset'
+[2015.11.08-07.26.42:232][423]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableCouch.uasset'
+[2015.11.08-07.26.42:232][423]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableBed.uasset'
+[2015.11.08-07.26.43:115][466]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableDesk.uasset'
+[2015.11.08-07.26.43:115][466]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset'
+[2015.11.08-07.26.43:115][466]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableSink.uasset'
+[2015.11.08-07.26.50:926][790]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2015.11.08-07.27.14:800][718]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset'
+[2015.11.08-07.27.44:480][954]LogEditorTransaction: Undo Translate Bone
+[2015.11.08-07.27.44:526][954]LogMaterial: Missing cached shader map for material flame, compiling. 
+[2015.11.08-07.27.44:570][954]LogMaterial: 0.000366 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.08-07.27.54:765][511]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2015.11.08-07.27.54:765][511]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.11.08-07.27.54:765][511]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.11.08-07.27.54:765][511]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.11.08-07.28.15:982][461]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Skeleton.uasset'
+[2015.11.08-07.28.16:346][461]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Skeleton.uasset - no such file(s).
+
+[2015.11.08-07.28.16:411][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Fire_Skeleton" FILE="E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Skeleton.uasset" SILENT=true
+[2015.11.08-07.28.16:419][461]LogSavePackage: Save=4.380269ms
+[2015.11.08-07.28.16:419][461]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/Fire_Skeleton4A7ECAAC488DED649211478CA7783E7D.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Skeleton.uasset'
+[2015.11.08-07.28.16:423][461]LogSavePackage: Total save time: 9.294655ms
+[2015.11.08-07.28.16:423][461]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Skeleton.uasset
+[2015.11.08-07.28.16:990][461]LogSourceControl: Attempting 'p4 add E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Skeleton.uasset'
+[2015.11.08-07.29.37:611][558]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.29.39:880][646]BlueprintLog: New page: Compile AI_Character
+[2015.11.08-07.29.40:712][646]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-07.29.40:712][646]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.11.08-07.29.40:759][646]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/Hide_Service.uasset'
+[2015.11.08-07.29.40:759][646]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/Flamable_Master_BP.uasset'
+[2015.11.08-07.29.40:805][646]BlueprintEditorCompileResults: Info [1578.16] Compile of AI_Character successful! [in 924 ms]
+[2015.11.08-07.29.41:520][675]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableToilet.uasset'
+[2015.11.08-07.29.41:582][677]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableBed.uasset'
+[2015.11.08-07.29.41:640][679]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableCouch.uasset'
+[2015.11.08-07.29.42:450][704]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableDesk.uasset'
+[2015.11.08-07.29.42:609][709]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableSink.uasset'
+[2015.11.08-07.29.42:609][709]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset'
+[2015.11.08-07.29.54:288][ 61]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_BBD.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_BT.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Controller.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/AITest.umap E:/Unreal/HackTMWS/Hackathon/Content/AI/Env_BOT.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/Env_Player.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/EQS_Test.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/HideQuery.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/Wonder_BTT.uasset'
+[2015.11.08-07.30.02:290][404]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.30.17:680][ 93]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.11.08-07.30.20:672][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.11.08-07.30.20:764][223]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.11.08-07.30.24:131][369]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.11.08-07.30.31:662][696]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.11.08-07.30.34:677][826]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.11.08-07.30.37:992][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.11.08-07.30.40:602][ 81]BlueprintLog: New page: Compile AI_Character
+[2015.11.08-07.30.41:716][ 81]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/Flamable_Master_BP.uasset'
+[2015.11.08-07.30.41:716][ 81]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-07.30.41:716][ 81]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/Hide_Service.uasset'
+[2015.11.08-07.30.41:716][ 81]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.11.08-07.30.41:812][ 81]BlueprintEditorCompileResults: Info [1639.16] Compile of AI_Character successful! [in 1,209 ms]
+[2015.11.08-07.30.42:381][106]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableToilet.uasset'
+[2015.11.08-07.30.42:381][106]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableCouch.uasset'
+[2015.11.08-07.30.42:381][106]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableBed.uasset'
+[2015.11.08-07.30.43:218][132]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableSink.uasset'
+[2015.11.08-07.30.43:264][133]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset'
+[2015.11.08-07.30.43:264][133]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableDesk.uasset'
+[2015.11.08-07.31.09:618][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-07.31.11:085][913]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-07.31.11:763][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-07.31.13:278][984]LogEditorViewport: Clicking on Actor (LMB): AI_Character_C (AI_Character)
+[2015.11.08-07.31.56:109][713]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.31.58:458][812]BlueprintLog: New page: Compile AI_Character
+[2015.11.08-07.31.59:557][812]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/Hide_Service.uasset'
+[2015.11.08-07.31.59:557][812]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/Flamable_Master_BP.uasset'
+[2015.11.08-07.31.59:557][812]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-07.31.59:557][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.11.08-07.31.59:643][812]BlueprintEditorCompileResults: Info [1716.99] Compile of AI_Character successful! [in 1,184 ms]
+[2015.11.08-07.32.00:139][834]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableToilet.uasset'
+[2015.11.08-07.32.00:249][840]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableBed.uasset'
+[2015.11.08-07.32.00:272][841]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableCouch.uasset'
+[2015.11.08-07.32.01:090][884]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableSink.uasset'
+[2015.11.08-07.32.01:091][884]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableDesk.uasset'
+[2015.11.08-07.32.01:143][886]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset'
+[2015.11.08-07.32.19:911][665]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap'
+[2015.11.08-07.32.20:359][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level01" FILE="E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.08-07.32.20:362][665]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.32.21:119][665]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap'
+[2015.11.08-07.32.21:240][665]LogSavePackage: Save=786.407715ms
+[2015.11.08-07.32.21:240][665]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/Level01E3549399439B6A4348B8D48D5CAB3162.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap'
+[2015.11.08-07.32.21:246][665]LogSavePackage: Total save time: 821.165469ms
+[2015.11.08-07.32.21:246][665]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap
+[2015.11.08-07.32.22:712][707]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.32.22:712][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.08-07.32.22:712][707]PIE: New page: PIE session: Level01 (Nov 8, 2015, 11:32:22 AM)
+[2015.11.08-07.32.22:712][707]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level01
+[2015.11.08-07.32.22:812][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.099406s)
+[2015.11.08-07.32.22:814][707]LogAIModule: Creating AISystem for world Level01
+[2015.11.08-07.32.22:815][707]LogPlayLevel: PIE: World Init took: (0.002950s)
+[2015.11.08-07.32.22:816][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level01.Level01 to /Game/Maps/UEDPIE_0_Level01.Level01 (0.103275s)
+[2015.11.08-07.32.22:950][707]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.08-07.32.23:055][707]LogInit: FAudioDevice initialized.
+[2015.11.08-07.32.23:113][707]LogWorld: Game class is 'FireFIghtingGameMode_C'
+[2015.11.08-07.32.23:184][707]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.08-07.32.23:184][707]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level01.Level01 up for play (max tick rate 60) at 2015.11.08-09.32.23
+[2015.11.08-07.32.23:184][707]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level01.Level01:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-07.32.23:185][707]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level01.Level01:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-07.32.23:200][707]LogWorld: Bringing up level for play took: 0.083089
+[2015.11.08-07.32.23:210][707]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level01 1.192
+[2015.11.08-07.32.23:210][707]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.32.23:252][708]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.095374 > MaxSimulationTimeStep (0.050) for 'AI_Character_C_2'
+[2015.11.08-07.32.35:950][277]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.32.36:263][277]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.32.36:325][277]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000086A47A89A0
+[2015.11.08-07.33.53:382][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-07.34.00:516][772]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.34.01:179][772]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_CubeAction.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Material.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_PhysicsAsset.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_Fireball_CubeAction.uasset E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/FLAMEcol.uasset'
+[2015.11.08-07.34.01:553][772]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_CubeAction.uasset - no such file(s).
+
+[2015.11.08-07.34.01:553][772]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Material.uasset - no such file(s).
+
+[2015.11.08-07.34.01:554][772]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_PhysicsAsset.uasset - no such file(s).
+
+[2015.11.08-07.34.01:554][772]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_Fireball_CubeAction.uasset - no such file(s).
+
+[2015.11.08-07.34.01:554][772]SourceControl: Info E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Textures/FLAMEcol.uasset - no such file(s).
+
+[2015.11.08-07.34.01:667][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Character" FILE="E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset" SILENT=true
+[2015.11.08-07.34.02:066][772]LogSavePackage: Save=379.959137ms
+[2015.11.08-07.34.02:067][772]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/AI_Character3A925D1247F7F4A63EC8AFB6F9621F8D.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset'
+[2015.11.08-07.34.02:071][772]LogSavePackage: Total save time: 401.409317ms
+[2015.11.08-07.34.02:071][772]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset
+[2015.11.08-07.34.02:129][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Fire_Anim_CubeAction" FILE="E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_CubeAction.uasset" SILENT=true
+[2015.11.08-07.34.02:162][772]LogSavePackage: Save=29.783945ms
+[2015.11.08-07.34.02:162][772]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/Fire_Anim_CubeAction1EF52F7C486B409B276454B87A2BAE5C.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_CubeAction.uasset'
+[2015.11.08-07.34.02:167][772]LogSavePackage: Total save time: 34.797117ms
+[2015.11.08-07.34.02:167][772]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_CubeAction.uasset
+[2015.11.08-07.34.02:678][772]LogSourceControl: Attempting 'p4 add E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_CubeAction.uasset'
+[2015.11.08-07.34.03:260][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Material" FILE="E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Material.uasset" SILENT=true
+[2015.11.08-07.34.03:294][772]LogSavePackage: Save=29.936611ms
+[2015.11.08-07.34.03:294][772]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/MaterialFEACE4014387BDE14884E49D6CC84FAD.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Material.uasset'
+[2015.11.08-07.34.03:298][772]LogSavePackage: Total save time: 34.833465ms
+[2015.11.08-07.34.03:298][772]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Material.uasset
+[2015.11.08-07.34.03:831][772]LogSourceControl: Attempting 'p4 add E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Material.uasset'
+[2015.11.08-07.34.04:396][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Fire_PhysicsAsset" FILE="E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_PhysicsAsset.uasset" SILENT=true
+[2015.11.08-07.34.04:405][772]LogSavePackage: Save=5.542154ms
+[2015.11.08-07.34.04:405][772]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/Fire_PhysicsAsset2816C5B540493A6890EFFA8577778B90.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_PhysicsAsset.uasset'
+[2015.11.08-07.34.04:409][772]LogSavePackage: Total save time: 10.758024ms
+[2015.11.08-07.34.04:409][772]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_PhysicsAsset.uasset
+[2015.11.08-07.34.04:893][772]LogSourceControl: Attempting 'p4 add E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_PhysicsAsset.uasset'
+[2015.11.08-07.34.05:425][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Fire" FILE="E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset" SILENT=true
+[2015.11.08-07.34.05:474][772]LogSavePackage: Save=30.795731ms
+[2015.11.08-07.34.05:474][772]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/FireFA62692349AA4E66629EA992021A1AE2.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset'
+[2015.11.08-07.34.05:479][772]LogSavePackage: Total save time: 50.674789ms
+[2015.11.08-07.34.05:479][772]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire.uasset
+[2015.11.08-07.34.05:540][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Fire_Anim_Fireball_CubeAction" FILE="E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_Fireball_CubeAction.uasset" SILENT=true
+[2015.11.08-07.34.05:575][772]LogSavePackage: Save=30.611847ms
+[2015.11.08-07.34.05:575][772]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/Fire_Anim_Fireball_CubeAction2CDAE5F4443926EEF1C66C8321A58C71.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_Fireball_CubeAction.uasset'
+[2015.11.08-07.34.05:579][772]LogSavePackage: Total save time: 35.480902ms
+[2015.11.08-07.34.05:579][772]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_Fireball_CubeAction.uasset
+[2015.11.08-07.34.06:124][772]LogSourceControl: Attempting 'p4 add E:/Unreal/HackTMWS/Hackathon/Content/Geometry/Meshes/Fire_Anim_Fireball_CubeAction.uasset'
+[2015.11.08-07.34.06:688][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Textures/FLAMEcol" FILE="E:/Unreal/HackTMWS/Hackathon/Content
