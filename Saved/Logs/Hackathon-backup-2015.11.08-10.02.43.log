@@ -1,0 +1,577 @@
+﻿[2015.11.08-06.54.24:179][  0]Log file open, 11/08/15 08:54:24
+[2015.11.08-06.54.24:179][  0]LogInit:Display: Running engine for game: Hackathon
+[2015.11.08-06.54.24:179][  0]LogInit:Display: RandInit(260532233) SRandInit(260532234).
+[2015.11.08-06.54.24:179][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.08-06.54.24:179][  0]LogStats: Stats thread started at 0.148871
+[2015.11.08-06.54.24:179][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.08-06.54.24:179][  0]LogInit: API Version: 2672455
+[2015.11.08-06.54.24:179][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.08-06.54.24:179][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.08-06.54.24:179][  0]LogInit: Build Configuration: Development
+[2015.11.08-06.54.24:179][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.08-06.54.24:179][  0]LogInit: Command line:  
+[2015.11.08-06.54.24:179][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.08-06.54.24:179][  0]LogInit: Rocket: 1
+[2015.11.08-06.54.24:204][  0]LogInit: Using libcurl 7.41.0
+[2015.11.08-06.54.24:204][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.08-06.54.24:204][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.08-06.54.24:204][  0]LogInit:  - other features:
+[2015.11.08-06.54.24:204][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.08-06.54.24:204][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.08-06.54.24:204][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.08-06.54.24:204][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.08-06.54.24:204][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.08-06.54.24:205][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.08-06.54.24:205][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.08-06.54.24:205][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.08-06.54.24:205][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.08-06.54.24:205][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.08-06.54.24:226][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.08-06.54.24:248][  0]LogInit: Object subsystem initialized
+[2015.11.08-06.54.24:252][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.08-06.54.24:252][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.08-06.54.24:274][  0]LogInit: Computer: KARASUTENGU
+[2015.11.08-06.54.24:274][  0]LogInit: User: JustAddX
+[2015.11.08-06.54.24:274][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.08-06.54.24:274][  0]LogInit: High frequency timer resolution =2.338441 MHz
+[2015.11.08-06.54.24:274][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.11.08-06.54.24:274][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.08-06.54.24:274][  0]LogMemory: Process Physical Memory: 58.76 MB used, 58.76 MB peak
+[2015.11.08-06.54.24:274][  0]LogMemory: Process Virtual Memory: 61.26 MB used, 61.26 MB peak
+[2015.11.08-06.54.24:274][  0]LogMemory: Physical Memory: 3795.92 MB used, 16335.20 MB total
+[2015.11.08-06.54.24:274][  0]LogMemory: Virtual Memory: 377.10 MB used, 134217728.00 MB total
+[2015.11.08-06.54.24:390][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.08-06.54.26:464][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 670MX (Feature Level 11_0)
+[2015.11.08-06.54.26:464][  0]LogD3D11RHI: Adapter has 3008MB of dedicated video memory, 0MB of dedicated system memory, and 8167MB of shared system memory, 1 output[s]
+[2015.11.08-06.54.26:469][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.08-06.54.26:469][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8167MB of shared system memory, 0 output[s]
+[2015.11.08-06.54.26:469][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.08-06.54.26:478][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.08-06.54.26:478][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.08-06.54.26:513][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.08-06.54.26:539][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/Unreal/HackTMWS/Hackathon/Intermediate/Shaders/WorkingDirectory/9992/).
+[2015.11.08-06.54.26:539][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'E:/Unreal/HackTMWS/Hackathon/Intermediate/Shaders/tmp/40FB67CF41DAFED47B5345BE47EDB067/'.
+[2015.11.08-06.54.26:539][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.08-06.54.29:909][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.08-06.54.29:925][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.08-06.54.29:941][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.08-06.54.29:957][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.08-06.54.29:972][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.08-06.54.29:982][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.08-06.54.29:992][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.08-06.54.30:002][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.08-06.54.30:012][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.08-06.54.30:021][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.08-06.54.30:031][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.08-06.54.30:042][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.08-06.54.30:044][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.08-06.54.30:074][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.08-06.54.30:083][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.08-06.54.30:093][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.08-06.54.30:103][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.08-06.54.30:104][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.08-06.54.30:391][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.08-06.54.30:508][  0]LogDerivedDataCache: Loaded boot cache 0.12s 41MB C:/Users/JustAddX/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.08-06.54.30:508][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/JustAddX/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.08-06.54.30:508][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal/HackTMWS/Hackathon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.08-06.54.30:508][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.08-06.54.30:508][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal/HackTMWS/Hackathon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.08-06.54.30:508][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.08-06.54.30:951][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.08-06.54.30:964][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JustAddX/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.08-06.54.31:561][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.08-06.54.31:571][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.08-06.54.31:922][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.08-06.54.31:923][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.08-06.54.32:585][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.08-06.54.34:547][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.08-06.54.34:716][  0]LogAssetRegistry: FAssetRegistry took 0.0119 seconds to start up
+[2015.11.08-06.54.35:218][  0]SourceControl: Info Source control is disabled
+[2015.11.08-06.54.35:294][  0]SourceControl: Info Source control is disabled
+[2015.11.08-06.54.35:879][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-06.54.36:152][  0]LogObj: 28380 objects as part of root set at end of initial load.
+[2015.11.08-06.54.36:152][  0]LogUObjectAllocator: 6044384 out of 0 bytes used by permanent object pool.
+[2015.11.08-06.54.36:298][  0]LogEngine: Initializing Engine...
+[2015.11.08-06.54.36:308][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.08-06.54.36:309][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.08-06.54.36:663][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.08-06.54.36:689][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.08-06.54.36:820][  0]LogInit: FAudioDevice initialized.
+[2015.11.08-06.54.36:859][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/JustAddX/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.08-06.54.36:867][  0]LogInit: Texture streaming: Enabled
+[2015.11.08-06.54.36:882][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.08-06.54.36:882][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.08-06.54.36:883][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 01ed42054ad48911ac0b5db6b1f56165|c36cad87b28148aa86f654aee36423e2|4a0c5acb-cfe5-437e-b84d-3e3da8845d86
+[2015.11.08-06.54.36:883][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.08-06.54.36:994][  0]LogInit: Transaction tracking system initialized
+[2015.11.08-06.54.37:090][  0]BlueprintLog: New page: Editor Load
+[2015.11.08-06.54.37:350][  0]LocalizationService: Info Localization service is disabled
+[2015.11.08-06.54.37:601][  0]LogConsoleResponse:Display: 
+[2015.11.08-06.54.37:938][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.08-06.54.38:953][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal/HackTMWS/Hackathon/Content/' took 0.02s
+[2015.11.08-06.54.38:954][  0]Cmd: MAP LOAD FILE="E:/Unreal/HackTMWS/Hackathon/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.08-06.54.38:955][  0]LightingResults: New page: Lighting Build
+[2015.11.08-06.54.38:963][  0]MapCheck: New page: Map Check
+[2015.11.08-06.54.38:963][  0]LightingResults: New page: Lighting Build
+[2015.11.08-06.54.38:988][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048B392AAC0
+[2015.11.08-06.54.39:003][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-06.54.39:007][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-06.54.39:012][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-06.54.39:016][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-06.54.39:020][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-06.54.39:021][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-06.54.39:024][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-06.54.39:027][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-06.54.39:433][  0]LogLinker:Warning: Asset 'E:/Unreal/HackTMWS/Hackathon/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-06.54.41:916][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Roby/FlamableToilet.FlamableToilet_C:UserConstructionScript; removing parent information, but keeping function
+[2015.11.08-06.54.43:396][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.11.08-06.54.43:410][  0]LogMaterial:Warning: Material /Game/Geometry/Meshes/Textures/MAT_master.MAT_master needed to have new flag set bUsedWithStaticLighting !
+[2015.11.08-06.54.43:420][  0]LogMaterial: Missing cached shader map for material MAT_master, compiling. 
+[2015.11.08-06.54.43:596][  0]MapCheck:Warning: Warning MAT_master Material /Game/Geometry/Meshes/Textures/MAT_master.MAT_master was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2015.11.08-06.54.43:597][  0]LogMaterial: 0.000385 seconds spent updating 1 materials, 1 interfaces, 4 instances, 0 with static permutations.
+[2015.11.08-06.54.43:689][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.08-06.54.43:691][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.08-06.54.43:953][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 261.926ms to complete.
+[2015.11.08-06.54.43:972][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.018
+[2015.11.08-06.54.44:248][  0]LogCollectionManager: Loaded 0 collections in 0.009437 seconds
+[2015.11.08-06.54.44:326][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal/HackTMWS/Hackathon/Saved/Collections/' took 0.01s
+[2015.11.08-06.54.44:326][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal/HackTMWS/Hackathon/Content/Developers/JustAddX/Collections/' took 0.01s
+[2015.11.08-06.54.44:327][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal/HackTMWS/Hackathon/Content/Collections/' took 0.01s
+[2015.11.08-06.54.44:327][  0]LogContentBrowser: Native class hierarchy populated in 0.0396 seconds. Added 1874 classes and 335 folders.
+[2015.11.08-06.54.44:346][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2015.11.08-06.54.44:371][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2015.11.08-06.54.44:546][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2015.11.08-06.54.44:580][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2015.11.08-06.54.44:820][  0]LogSourceControl: Attempting 'p4 client -o HackTM'
+[2015.11.08-06.54.44:820][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.08-06.54.44:833][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.08-06.54.44:856][  0]LogLoad: Full Startup: 22.05 seconds (BP compile: 1.15 seconds)
+[2015.11.08-06.54.44:877][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Failed import for SceneComponent /Game/Roby/DestructableWallBP.DestructableWallBP_C:DefaultSceneRoot_GEN_VARIABLE
+[2015.11.08-06.54.44:983][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.08-06.54.45:324][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.11.08-06.54.45:671][  1]SourceControl: Info Client HackTM
+[2015.11.08-06.54.45:671][  1]SourceControl: Info Update 2015/11/07 07:33:37
+[2015.11.08-06.54.45:671][  1]SourceControl: Info Access 2015/11/08 01:50:59
+[2015.11.08-06.54.45:671][  1]SourceControl: Info Owner KrunkFu
+[2015.11.08-06.54.45:671][  1]SourceControl: Info Host KarasuTengu
+[2015.11.08-06.54.45:671][  1]SourceControl: Info Description Created by KrunkFu.
+
+[2015.11.08-06.54.45:672][  1]SourceControl: Info Root E:\Unreal\HackTMWS
+[2015.11.08-06.54.45:672][  1]SourceControl: Info Options noallwrite noclobber nocompress unlocked nomodtime normdir
+[2015.11.08-06.54.45:672][  1]SourceControl: Info SubmitOptions submitunchanged
+[2015.11.08-06.54.45:672][  1]SourceControl: Info LineEnd local
+[2015.11.08-06.54.45:672][  1]SourceControl: Info View0 //depot/... //HackTM/...
+[2015.11.08-06.54.45:672][  1]SourceControl: Info specFormatted 
+[2015.11.08-06.54.45:672][  1]SourceControl: Info func client-FstatInfo
+[2015.11.08-06.54.46:636][ 16]LogAssetRegistry: Asset discovery search completed in 11.9310 seconds
+[2015.11.08-06.54.46:636][ 16]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.08-06.54.46:636][ 16]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000164 seconds (updated 0 objects)
+[2015.11.08-06.54.47:162][ 42]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Maps/EndLevel.umap E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap E:/Unreal/HackTMWS/Hackathon/Content/Maps/MainMenu.umap'
+[2015.11.08-06.55.39:668][961]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.08-06.55.39:668][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.08-06.55.39:669][961]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 8, 2015, 10:55:39 AM)
+[2015.11.08-06.55.39:670][961]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.11.08-06.55.39:785][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.116348s)
+[2015.11.08-06.55.39:787][961]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.11.08-06.55.39:788][961]LogPlayLevel: PIE: World Init took: (0.002367s)
+[2015.11.08-06.55.39:789][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.119605s)
+[2015.11.08-06.55.39:789][961]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-06.55.39:979][961]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.08-06.55.40:116][961]LogInit: FAudioDevice initialized.
+[2015.11.08-06.55.40:211][961]LogWorld: Game class is 'FireFIghtingGameMode_C'
+[2015.11.08-06.55.40:274][961]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.08-06.55.40:275][961]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.11.08-08.55.40
+[2015.11.08-06.55.40:276][961]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-06.55.40:277][961]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-06.55.40:284][961]LogWorld: Bringing up level for play took: 0.065263
+[2015.11.08-06.55.40:292][961]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.274
+[2015.11.08-06.55.40:293][961]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.08-06.55.43:455][108]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.08-06.55.43:506][108]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.08-06.55.43:549][108]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048C045F2E0
+[2015.11.08-06.55.45:633][219]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Roby/FlamableBed.FlamableBed_C:UserConstructionScript; removing parent information, but keeping function
+[2015.11.08-06.55.45:675][219]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Roby/FlamableCouch.FlamableCouch_C:UserConstructionScript; removing parent information, but keeping function
+[2015.11.08-06.55.45:719][219]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Roby/FlamableDesk.FlamableDesk_C:UserConstructionScript; removing parent information, but keeping function
+[2015.11.08-06.55.45:764][219]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Roby/FlamableSink.FlamableSink_C:UserConstructionScript; removing parent information, but keeping function
+[2015.11.08-06.55.46:137][219]LogAIModule: Creating AISystem for world Level01
+[2015.11.08-06.55.46:387][219]Cmd: MAP LOAD FILE="E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.08-06.55.46:387][219]LightingResults: New page: Lighting Build
+[2015.11.08-06.55.46:492][219]LoadErrors: New page: Loading map: Level01.umap
+[2015.11.08-06.55.46:497][219]MapCheck: New page: Map Check
+[2015.11.08-06.55.46:497][219]LightingResults: New page: Lighting Build
+[2015.11.08-06.55.46:538][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048C045D580
+[2015.11.08-06.55.47:051][219]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.08-06.55.47:158][219]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.08-06.55.48:212][219]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,053.622ms to complete.
+[2015.11.08-06.55.48:227][219]LogFileHelpers: Loading map 'Level01' took 1.843
+[2015.11.08-06.55.51:698][366]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-06.55.51:698][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.08-06.55.51:698][366]PIE: New page: PIE session: Level01 (Nov 8, 2015, 10:55:51 AM)
+[2015.11.08-06.55.51:698][366]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level01
+[2015.11.08-06.55.51:851][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.152812s)
+[2015.11.08-06.55.51:854][366]LogAIModule: Creating AISystem for world Level01
+[2015.11.08-06.55.51:855][366]LogPlayLevel: PIE: World Init took: (0.003402s)
+[2015.11.08-06.55.51:856][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level01.Level01 to /Game/Maps/UEDPIE_0_Level01.Level01 (0.157343s)
+[2015.11.08-06.55.51:856][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-06.55.51:943][366]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.08-06.55.52:066][366]LogInit: FAudioDevice initialized.
+[2015.11.08-06.55.52:131][366]LogWorld: Game class is 'FireFIghtingGameMode_C'
+[2015.11.08-06.55.52:235][366]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.08-06.55.52:235][366]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level01.Level01 up for play (max tick rate 60) at 2015.11.08-08.55.52
+[2015.11.08-06.55.52:235][366]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level01.Level01:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-06.55.52:236][366]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level01.Level01:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-06.55.52:261][366]LogWorld: Bringing up level for play took: 0.124438
+[2015.11.08-06.55.52:275][366]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level01 0.257
+[2015.11.08-06.55.52:276][366]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-06.55.52:318][367]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.089091 > MaxSimulationTimeStep (0.050) for 'AI_Character_252'
+[2015.11.08-06.56.08:555][158]LogBlueprintUserMessages: [FlamableToilet2_413] I'm On FIreee
+[2015.11.08-06.56.08:562][158]LogAudio:Warning: Detected orphaned looping sound 'Fire01'.
+[2015.11.08-06.56.12:549][333]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-06.56.12:609][333]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-06.56.12:660][333]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048A7A2ADE0
+[2015.11.08-06.56.29:822][107]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/DoorWallBP.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/FireFighterController_BP.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/FireFighterWidget.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/FireFIghtingGameMode.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/Flamable_Master_BP.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableBed.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableCouch.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableDesk.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableSink.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableToilet.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlameEnemy.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/Projectile_Master_BP.uasset'
+[2015.11.08-06.56.45:992][681]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_BBD.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_BT.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Controller.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/AITest.umap E:/Unreal/HackTMWS/Hackathon/Content/AI/Env_BOT.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/Env_Player.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/EQS_Test.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/Hide_Service.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/HideQuery.uasset E:/Unreal/HackTMWS/Hackathon/Content/AI/Wonder_BTT.uasset'
+[2015.11.08-06.56.56:676][126]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-06.56.58:876][126]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0025 seconds. Added 107 classes and 0 folders.
+[2015.11.08-06.57.21:689][394]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset'
+[2015.11.08-06.57.35:026][651]BlueprintLog: New page: Compile AI_Character
+[2015.11.08-06.57.35:482][651]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.08-06.57.35:482][651]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-06.57.35:595][651]BlueprintEditorCompileResults: Info [0192.79] Compile of AI_Character successful! [in 569 ms]
+[2015.11.08-06.57.35:827][654]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/Hide_Service.uasset'
+[2015.11.08-06.57.35:828][654]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-06.57.35:908][656]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap'
+[2015.11.08-06.57.36:873][679]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset'
+[2015.11.08-06.58.34:152][777]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/Flamable_Master_BP.uasset'
+[2015.11.08-06.59.21:215][664]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Flamable_Master_BP', cached variable property's owner is '/Game/Roby/Flamable_Master_BP.SKEL_Flamable_Master_BP_C'
+[2015.11.08-06.59.24:852][797]BlueprintLog: New page: Compile Flamable_Master_BP
+[2015.11.08-06.59.24:949][797]LogBlueprint:Error: [compiler Flamable_Master_BP] Error The type of  Object  is undetermined.  Connect something to  Cast To AI_Character  to imply a specific type.
+[2015.11.08-06.59.24:950][797]LogBlueprint:Error: [compiler Flamable_Master_BP] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2015.11.08-06.59.25:004][797]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-06.59.25:005][797]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.08-06.59.26:352][797]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableBed.uasset'
+[2015.11.08-06.59.26:352][797]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableToilet.uasset'
+[2015.11.08-06.59.26:352][797]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableCouch.uasset'
+[2015.11.08-06.59.26:640][797]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableSink.uasset'
+[2015.11.08-06.59.26:640][797]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableDesk.uasset'
+[2015.11.08-06.59.27:618][797]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Flamable_Master_BP', cached variable property's owner is '/Game/Roby/Flamable_Master_BP.SKEL_Flamable_Master_BP_C'
+[2015.11.08-06.59.27:626][797]LogBlueprint:Warning: [compiler Flamable_Master_BP] Warning [0304.82] Compile of Flamable_Master_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 2,773 ms]
+[2015.11.08-06.59.27:627][797]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To AI_Character  to imply a specific type.
+[2015.11.08-06.59.27:627][797]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2015.11.08-06.59.27:627][797]BlueprintEditorCompileResults:Warning: Warning [0304.82] Compile of Flamable_Master_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 2,773 ms]
+[2015.11.08-06.59.27:710][797]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Flamable_Master_BP', cached variable property's owner is '/Game/Roby/Flamable_Master_BP.SKEL_Flamable_Master_BP_C'
+[2015.11.08-06.59.28:275][814]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/Flamable_Master_BP.uasset'
+[2015.11.08-06.59.41:150][318]BlueprintLog: New page: Compile Flamable_Master_BP
+[2015.11.08-06.59.42:541][318]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableCouch.uasset'
+[2015.11.08-06.59.42:541][318]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableToilet.uasset'
+[2015.11.08-06.59.42:541][318]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableBed.uasset'
+[2015.11.08-06.59.42:578][318]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Flamable_Master_BP', cached variable property's owner is '/Game/Roby/Flamable_Master_BP.SKEL_Flamable_Master_BP_C'
+[2015.11.08-06.59.42:588][318]BlueprintEditorCompileResults: Info [0319.78] Compile of Flamable_Master_BP successful! [in 1,437 ms]
+[2015.11.08-06.59.42:667][318]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Flamable_Master_BP', cached variable property's owner is '/Game/Roby/Flamable_Master_BP.SKEL_Flamable_Master_BP_C'
+[2015.11.08-06.59.42:981][334]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableSink.uasset'
+[2015.11.08-06.59.42:997][335]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/FlamableDesk.uasset'
+[2015.11.08-06.59.43:513][366]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/Flamable_Master_BP.uasset'
+[2015.11.08-06.59.59:894][128]LogEditorViewport: Clicking on Actor (LMB): DestructableWallBP_C (DestructableWallBP36)
+[2015.11.08-07.00.01:466][167]Cmd: DELETE
+[2015.11.08-07.00.01:466][167]Cmd: ACTOR DELETE
+[2015.11.08-07.00.01:469][167]LogEditorActor: Deleted Actor: DestructableWallBP_C
+[2015.11.08-07.00.01:555][167]LogEditorActor: Deleted 1 Actors (0.088 secs)
+[2015.11.08-07.00.04:084][252]LogEditorViewport: Clicking on Actor (LMB): DestructableWallBP_C (DestructableWallBP15)
+[2015.11.08-07.00.05:221][280]Cmd: DELETE
+[2015.11.08-07.00.05:221][280]Cmd: ACTOR DELETE
+[2015.11.08-07.00.05:224][280]LogEditorActor: Deleted Actor: DestructableWallBP_C
+[2015.11.08-07.00.05:302][280]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2015.11.08-07.00.06:518][319]Cmd: TRANSACTION UNDO
+[2015.11.08-07.00.06:518][319]LogEditorTransaction: Undo Delete Actors
+[2015.11.08-07.00.36:019][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.08-07.00.36:264][348]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-07.00.38:959][468]BlueprintLog: New page: Compile DestructableWallBP
+[2015.11.08-07.00.39:711][468]BlueprintEditorCompileResults: Info [0376.91] Compile of DestructableWallBP successful! [in 752 ms]
+[2015.11.08-07.00.40:268][489]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-07.00.46:833][803]BlueprintLog: New page: Compile DestructableWallBP
+[2015.11.08-07.00.47:370][803]BlueprintEditorCompileResults: Info [0384.57] Compile of DestructableWallBP successful! [in 537 ms]
+[2015.11.08-07.00.47:987][827]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-07.00.54:147][121]BlueprintLog: New page: Compile DestructableWallBP
+[2015.11.08-07.00.54:713][121]BlueprintEditorCompileResults: Info [0391.91] Compile of DestructableWallBP successful! [in 565 ms]
+[2015.11.08-07.00.55:340][141]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-07.00.59:195][305]BlueprintLog: New page: Compile DestructableWallBP
+[2015.11.08-07.00.59:758][305]BlueprintEditorCompileResults: Info [0396.95] Compile of DestructableWallBP successful! [in 562 ms]
+[2015.11.08-07.01.00:435][327]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-07.01.04:077][489]BlueprintLog: New page: Compile DestructableWallBP
+[2015.11.08-07.01.04:638][489]BlueprintEditorCompileResults: Info [0401.83] Compile of DestructableWallBP successful! [in 560 ms]
+[2015.11.08-07.01.05:330][512]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-07.01.11:607][741]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.01.11:607][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.08-07.01.11:607][741]PIE: New page: PIE session: Level01 (Nov 8, 2015, 11:01:11 AM)
+[2015.11.08-07.01.11:607][741]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level01
+[2015.11.08-07.01.11:709][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.101338s)
+[2015.11.08-07.01.11:711][741]LogAIModule: Creating AISystem for world Level01
+[2015.11.08-07.01.11:712][741]LogPlayLevel: PIE: World Init took: (0.002455s)
+[2015.11.08-07.01.11:712][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level01.Level01 to /Game/Maps/UEDPIE_0_Level01.Level01 (0.104585s)
+[2015.11.08-07.01.11:822][741]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.08-07.01.11:929][741]LogInit: FAudioDevice initialized.
+[2015.11.08-07.01.11:987][741]LogWorld: Game class is 'FireFIghtingGameMode_C'
+[2015.11.08-07.01.12:064][741]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.08-07.01.12:064][741]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level01.Level01 up for play (max tick rate 60) at 2015.11.08-09.01.12
+[2015.11.08-07.01.12:064][741]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level01.Level01:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-07.01.12:065][741]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level01.Level01:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-07.01.12:082][741]LogWorld: Bringing up level for play took: 0.090791
+[2015.11.08-07.01.12:092][741]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level01 0.073
+[2015.11.08-07.01.12:092][741]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.01.12:133][742]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.096837 > MaxSimulationTimeStep (0.050) for 'AI_Character_252'
+[2015.11.08-07.01.24:307][254]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.01.24:399][254]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Flamable_Master_BP', cached variable property's owner is '/Game/Roby/Flamable_Master_BP.SKEL_Flamable_Master_BP_C'
+[2015.11.08-07.01.24:469][254]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Maps/Level01.Level01:PersistentLevel.Level01'
+[2015.11.08-07.01.24:548][254]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048B9C41260
+[2015.11.08-07.01.51:815][474]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.08-07.02.43:682][867]BlueprintLog: New page: Compile DestructableWallBP
+[2015.11.08-07.02.44:350][867]BlueprintEditorCompileResults: Info [0501.55] Compile of DestructableWallBP successful! [in 666 ms]
+[2015.11.08-07.02.44:949][887]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-07.03.06:658][817]BlueprintLog: New page: Compile DestructableWallBP
+[2015.11.08-07.03.07:257][817]BlueprintEditorCompileResults: Info [0524.45] Compile of DestructableWallBP successful! [in 598 ms]
+[2015.11.08-07.03.07:902][836]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-07.03.11:495][876]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset E:/Unreal/HackTMWS/Hackathon/Content/Roby/Flamable_Master_BP.uasset'
+[2015.11.08-07.03.15:179][876]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-07.03.16:229][876]LogSourceControl: Attempting 'p4 edit E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-07.03.17:244][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Roby/Flamable_Master_BP" FILE="E:/Unreal/HackTMWS/Hackathon/Content/Roby/Flamable_Master_BP.uasset" SILENT=true
+[2015.11.08-07.03.17:531][876]LogSavePackage: Save=269.583466ms
+[2015.11.08-07.03.17:531][876]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/Flamable_Master_BP0C58F64A4EB215976C806B94EB77BA2A.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Content/Roby/Flamable_Master_BP.uasset'
+[2015.11.08-07.03.17:536][876]LogSavePackage: Total save time: 289.457805ms
+[2015.11.08-07.03.17:536][876]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Content/Roby/Flamable_Master_BP.uasset
+[2015.11.08-07.03.17:619][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Character" FILE="E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset" SILENT=true
+[2015.11.08-07.03.18:014][876]LogSavePackage: Save=376.964813ms
+[2015.11.08-07.03.18:014][876]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/AI_CharacterAA2EE2C744AE4D66EBF769BE98B66D43.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset'
+[2015.11.08-07.03.18:019][876]LogSavePackage: Total save time: 396.640755ms
+[2015.11.08-07.03.18:019][876]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Content/AI/AI_Character.uasset
+[2015.11.08-07.03.18:442][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level01" FILE="E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.08-07.03.18:445][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-07.03.19:329][876]LogSourceControl: Attempting 'p4 fstat -Or E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap'
+[2015.11.08-07.03.19:329][876]LogSavePackage: Save=793.875061ms
+[2015.11.08-07.03.19:329][876]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/Level01E07C72D74D492DAC65D13997BF0001D6.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap'
+[2015.11.08-07.03.19:335][876]LogSavePackage: Total save time: 827.642862ms
+[2015.11.08-07.03.19:335][876]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Content/Maps/Level01.umap
+[2015.11.08-07.03.19:429][876]LogFileHelpers: Saving map 'Level01' took 1.404
+[2015.11.08-07.03.19:521][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Roby/DestructableWallBP" FILE="E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset" SILENT=true
+[2015.11.08-07.03.19:718][876]LogSavePackage: Save=178.987198ms
+[2015.11.08-07.03.19:718][876]LogSavePackage: Moving 'E:/Unreal/HackTMWS/Hackathon/Saved/DestructableWallBPC851A64B451245831FF5558C1F3C200C.tmp' to 'E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset'
+[2015.11.08-07.03.19:722][876]LogSavePackage: Total save time: 198.415097ms
+[2015.11.08-07.03.19:722][876]LogSavePackage:Warning: Finished SavePackage E:/Unreal/HackTMWS/Hackathon/Content/Roby/DestructableWallBP.uasset
+[2015.11.08-07.03.20:096][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.11.08-07.03.20:184][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.11.08-07.03.20:267][876]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.08-07.03.20:868][877]Cmd: QUIT_EDITOR
+[2015.11.08-07.03.21:660][877]LogExit: Preparing to exit.
+[2015.11.08-07.03.22:886][877]LogExit: Editor shut down
+[2015.11.08-07.03.22:887][877]LogExit: Transaction tracking system shut down
+[2015.11.08-07.03.22:899][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048C6522520
+[2015.11.08-07.03.22:901][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048A8A41440
+[2015.11.08-07.03.22:901][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048CB6A2660
+[2015.11.08-07.03.22:902][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048CBDFAD40
+[2015.11.08-07.03.22:902][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048D06A7BA0
+[2015.11.08-07.03.22:907][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004892612B60
+[2015.11.08-07.03.22:908][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048A719FBA0
+[2015.11.08-07.03.22:909][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048A9645B20
+[2015.11.08-07.03.23:437][877]LogExit: Object subsystem successfully closed.
+[2015.11.08-07.03.23:460][877]LogD3D11RHI: Shutdown
+[2015.11.08-07.03.23:460][877]LogD3D11RHI: CleanupD3DDevice
+[2015.11.08-07.03.24:233][877]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.08-07.03.24:310][877]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.11.08-07.03.24:310][877]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.11.08-07.03.24:310][877]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.11.08-07.03.24:310][877]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.11.08-07.03.24:310][877]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.11.08-07.03.24:310][877]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.11.08-07.03.24:311][877]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.11.08-07.03.24:311][877]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.11.08-07.03.24:312][877]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.11.08-07.03.24:312][877]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.11.08-07.03.24:312][877]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.11.08-07.03.24:312][877]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.11.08-07.03.24:312][877]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.11.08-07.03.24:312][877]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.11.08-07.03.24:313][877]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.11.08-07.03.24:313][877]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.11.08-07.03.24:313][877]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.11.08-07.03.24:313][877]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.11.08-07.03.24:313][877]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.11.08-07.03.24:313][877]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.11.08-07.03.24:313][877]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.11.08-07.03.24:313][877]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.11.08-07.03.24:313][877]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.11.08-07.03.24:313][877]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.11.08-07.03.24:313][877]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.11.08-07.03.24:313][877]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.11.08-07.03.24:313][877]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.11.08-07.03.24:689][877]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.11.08-07.03.24:689][877]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.11.08-07.03.24:689][877]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.11.08-07.03.24:689][877]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.11.08-07.03.24:689][877]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.11.08-07.03.24:689][877]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.11.08-07.03.24:690][877]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.11.08-07.03.24:690][877]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.11.08-07.03.24:690][877]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.11.08-07.03.24:690][877]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.11.08-07.03.24:690][877]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.11.08-07.03.24:690][877]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.11.08-07.03.24:690][877]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.11.08-07.03.24:690][877]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.11.08-07.03.24:690][877]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.11.08-07.03.24:690][877]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.11.08-07.03.24:690][877]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.11.08-07.03.24:690][877]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.11.08-07.03.24:690][877]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.11.08-07.03.24:690][877]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.11.08-07.03.24:691][877]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.11.08-07.03.24:691][877]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.11.08-07.03.24:691][877]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.11.08-07.03.24:691][877]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.11.08-07.03.24:691][877]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.11.08-07.03.24:691][877]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.11.08-07.03.24:691][877]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.11.08-07.03.24:691][877]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.11.08-07.03.24:691][877]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.11.08-07.03.24:691][877]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.11.08-07.03.24:691][877]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.11.08-07.03.24:691][877]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.11.08-07.03.24:692][877]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.11.08-07.03.24:692][877]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.11.08-07.03.24:692][877]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.11.08-07.03.24:692][877]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.11.08-07.03.24:692][877]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.11.08-07.03.24:692][877]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.11.08-07.03.24:692][877]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.11.08-07.03.24:692][877]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.11.08-07.03.24:692][877]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.11.08-07.03.24:692][877]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.11.08-07.03.24:692][877]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.11.08-07.03.24:693][877]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.11.08-07.03.24:693][877]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.11.08-07.03.24:693][877]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.11.08-07.03.24:693][877]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.11.08-07.03.24:693][877]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.11.08-07.03.24:693][877]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.11.08-07.03.24:693][877]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.11.08-07.03.24:834][877]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.11.08-07.03.24:834][877]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.11.08-07.03.24:834][877]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.11.08-07.03.24:834][877]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.11.08-07.03.24:834][877]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.11.08-07.03.24:834][877]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.11.08-07.03.24:834][877]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.11.08-07.03.24:834][877]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.11.08-07.03.24:885][877]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.11.08-07.03.24:885][877]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.11.08-07.03.24:885][877]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.11.08-07.03.24:885][877]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.11.08-07.03.24:885][877]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.11.08-07.03.24:886][877]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.11.08-07.03.24:887][877]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.11.08-07.03.24:890][877]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.11.08-07.03.24:891][877]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.11.08-07.03.24:973][877]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.11.08-07.03.24:975][877]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.11.08-07.03.24:975][877]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.11.08-07.03.25:076][877]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.11.08-07.03.25:076][877]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.11.08-07.03.25:076][877]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.11.08-07.03.25:085][877]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.11.08-07.03.25:085][877]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.11.08-07.03.25:085][877]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.11.08-07.03.25:086][877]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (79)
+[2015.11.08-07.03.25:086][877]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.08-07.03.25:086][877]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.08-07.03.25:086][877]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.08-07.03.25:086][877]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.08-07.03.25:086][877]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.08-07.03.25:086][877]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.08-07.03.25:086][877]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.08-07.03.25:086][877]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.08-07.03.25:086][877]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.08-07.03.25:086][877]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.08-07.03.25:086][877]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.08-07.03.25:086][877]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.08-07.03.25:086][877]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.08-07.03.25:092][877]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.08-07.03.25:092][877]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.08-07.03.25:092][877]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.08-07.03.25:092][877]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.08-07.03.25:092][877]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.08-07.03.25:092][877]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.08-07.03.25:092][877]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.08-07.03.25:092][877]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.08-07.03.25:092][877]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.08-07.03.25:093][877]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.08-07.03.25:094][877]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.08-07.03.25:101][877]LogDerivedDataCache: Shutdown
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.08-07.03.25:102][877]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.08-07.03.25:103][877]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.08-07.03.25:103][877]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.08-07.03.25:103][877]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.08-07.03.25:103][877]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.08-07.03.25:103][877]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.08-07.03.25:103][877]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.08-07.03.25:103][877]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.08-07.03.25:103][877]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.08-07.03.25:103][877]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.08-07.03.27:107][877]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.08-07.03.27:110][877]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.08-07.03.27:110][877]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.08-07.03.27:111][877]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.08-07.03.27:111][877]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.08-07.03.27:111][877]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.08-07.03.27:123][877]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.08-07.03.27:123][877]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.08-07.03.27:123][877]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.08-07.03.27:123][877]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.08-07.03.27:123][877]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.08-07.03.27:123][877]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.08-07.03.27:123][877]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.08-07.03.27:123][877]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.08-07.03.27:123][877]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.08-07.03.27:123][877]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.08-07.03.27:125][877]LogExit: Exiting.
+[2015.11.08-07.03.27:128][877]Log file closed, 11/08/15 09:03:27
